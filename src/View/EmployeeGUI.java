@@ -8,6 +8,7 @@ public class EmployeeGUI extends JFrame{
     private JPanel wrapper;
     private JLabel lbl_title;
     private JButton btn_exit;
+    private JTabbedPane tabbedPane1;
 
     public EmployeeGUI() {
         lbl_title.setText("Personel Panel");
