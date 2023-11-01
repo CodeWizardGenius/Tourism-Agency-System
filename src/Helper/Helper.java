@@ -32,4 +32,15 @@ public class Helper {
     }
 
 
+    public static void clearTextField(JTextField... fldOtelName) {
+        for (JTextField textField : fldOtelName) {
+            textField.setText("");
+        }
+    }
+
+    public static boolean confirm(String message, String title, int type) {
+        optionPageTR();
+        int select = JOptionPane.showConfirmDialog(null, message, title, type);
+        return select == 0;
+    }
 }

@@ -33,7 +33,17 @@ public class User {
             pr.setString(2, password);
             ResultSet rs = pr.executeQuery();
             if (rs.next()) {
-                user = new User();
+                switch (rs.getString("type")) {
+                    case "admin":
+                        user = new Admin();
+                        break;
+                    case "employee":
+                        user = new Employee();
+                        break;
+                    default:
+                        System.out.println("Kullanıcı tipi hatalı!");
+                        break;
+                }
                 user.setId(rs.getInt("id"));
                 user.setUsername(rs.getString("username"));
                 user.setPassword(rs.getString("password"));

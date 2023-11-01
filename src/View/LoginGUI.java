@@ -1,6 +1,8 @@
 package View;
 
 import Helper.Helper;
+import Model.Admin;
+import Model.Employee;
 import Model.User;
 
 import javax.swing.*;
@@ -33,11 +35,11 @@ public class LoginGUI extends JFrame {
                     switch (user.getType()) {
                         case "admin":
                             System.out.println("Admin");
-                            AdminGUI adminGUI = new AdminGUI();
+                            new AdminGUI((Admin) user);
                             break;
                         case "employee":
                             System.out.println("Employee");
-                            EmployeeGUI employeeGUI = new EmployeeGUI();
+                            new EmployeeGUI((Employee) user);
                             break;
                         default:
                             Helper.showMessage("Kullanıcı tipi hatalı!", "UYARI", JOptionPane.WARNING_MESSAGE);
