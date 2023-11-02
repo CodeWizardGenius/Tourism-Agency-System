@@ -1,28 +1,25 @@
 
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÔàÖúÿÿÿÿ8’†Œ¹1
-r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÃÅÔşÿÿÿÿ8‚’†Œ¹1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8‰’†Œ¹1
-z	java:S116
-"YRename this field "tbl_availables" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÚÀäüÿÿÿÿ8Ÿ’†Œ¹1
-s	java:S116"RRename this field "btn_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Õ€½üÿÿÿÿ8°’†Œ¹1
-v	java:S116"URename this field "btn_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ•à„ıÿÿÿÿ8±’†Œ¹1
-r	java:S116"WRename this field "tbl_selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³œÒl8±’†Œ¹1
-z	java:S116"YRename this field "pnl_availables" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ«„ˆøÿÿÿÿ8±’†Œ¹1
-q	java:S116"URename this field "btn_submit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úß Ä8±’†Œ¹1
-z	java:S116"^Rename this field "model_otel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ƒĞ³8±’†Œ¹1
-~	java:S116"]Rename this field "row_hotel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ã£×şÿÿÿÿ8±’†Œ¹1
-z	java:S116"^Rename this field "model_otel_selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÃö¿8±’†Œ¹1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÔàÖúÿÿÿÿ8õÄÅŒ¹1
+r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÃÅÔşÿÿÿÿ8öÄÅŒ¹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8÷ÄÅŒ¹1
+z	java:S116"YRename this field "tbl_availables" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÚÀäüÿÿÿÿ8ÿÄÅŒ¹1
+s	java:S116"RRename this field "btn_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Õ€½üÿÿÿÿ8ÿÄÅŒ¹1
+v	java:S116"URename this field "btn_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ•à„ıÿÿÿÿ8ÿÄÅŒ¹1
+r	java:S116"WRename this field "tbl_selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³œÒl8ÿÄÅŒ¹1
+z	java:S116"YRename this field "pnl_availables" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ«„ˆøÿÿÿÿ8ÿÄÅŒ¹1
+q	java:S116"URename this field "btn_submit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úß Ä8ÿÄÅŒ¹1
+z	java:S116"^Rename this field "model_otel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ƒĞ³8ÿÄÅŒ¹1
+~	java:S116"]Rename this field "row_hotel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ã£×şÿÿÿÿ8€ÅÅŒ¹1
+z	java:S116"^Rename this field "model_otel_selected" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÃö¿8€ÅÅŒ¹1
 V
-java:S1948"4Make "row_hotel_features" transient or serializable.(—ã£×şÿÿÿÿ8¾’†Œ¹1
-Z
-java:S1172"8Remove this unused method parameter "fdl_otel_features".(âÔàÖúÿÿÿÿ8Â’†Œ¹1
+java:S1948"4Make "row_hotel_features" transient or serializable.(—ã£×şÿÿÿÿ8‚ÅÅŒ¹1
 i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8Å’†Œ¹1
-I
-java:S1602(",Remove useless curly braces around statement(…ËÌĞ8È’†Œ¹1
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8…ÅÅŒ¹1
 W
-java:S1854@"5Remove this useless assignment to local variable "i".(œ¸•ßúÿÿÿÿ8Ó’†Œ¹1
-P
-java:S1068".Remove this unused "btn_delete" private field.(æ•à„ıÿÿÿÿ8Ù’†Œ¹1
+java:S1854U"5Remove this useless assignment to local variable "i".(œ¸•ßúÿÿÿÿ8‹ÅÅŒ¹1
 T
-java:S1068"2Remove this unused "pnl_availables" private field.(Ÿ«„ˆøÿÿÿÿ8Ú’†Œ¹1
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8ŒÅÅŒ¹1
+W
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8ŒÅÅŒ¹1
+T
+java:S1068"2Remove this unused "pnl_availables" private field.(Ÿ«„ˆøÿÿÿÿ8ŒÅÅŒ¹1

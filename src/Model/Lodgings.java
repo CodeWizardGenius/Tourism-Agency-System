@@ -19,11 +19,11 @@ public class Lodgings {
         this.type = type;
     }
 
-    public static ArrayList<Lodgings> getList(String otel_id) {
+    public static ArrayList<Lodgings> getList(int otel_id) {
         ArrayList<Lodgings> lodgingsArrayList = new ArrayList<>();
         try {
             Statement statement = DBConnector.getConnection().createStatement();
-            statement.execute(Contanct.LIST_QUERY_PARAMETRE("lodgings","otel_id", Integer.parseInt(otel_id)));
+            statement.execute(Contanct.LIST_QUERY_PARAMETRE("lodgings","otel_id", otel_id));
             ResultSet resultSet = statement.getResultSet();
             while (resultSet.next()) {
                 Lodgings lodgings = new Lodgings(
@@ -36,9 +36,21 @@ public class Lodgings {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return lodgingsArrayList;
+    }
 
-
-        return null;
+    public static boolean add(String otel_id, String feature) {
+          String query = "INSERT INTO lodgings (otel_id, type) VALUES (" +
+                 otel_id + ", '" +
+                 feature + "')";
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
     public int getId() {

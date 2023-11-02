@@ -2,14 +2,13 @@ package View;
 
 import Helper.Helper;
 import Model.Employee;
+import Model.Feature;
 import Model.Hotel;
 import Model.Lodgings;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 import static Helper.Helper.isEmpty;
 
@@ -34,6 +33,11 @@ public class EmployeeGUI extends JFrame {
     private JPanel pnl_lodgings_list;
     private JTable tbl_lodgings_list;
     private JButton btn_otel_features;
+    private JTextField fld_otel_lodging_id;
+    private JButton btn_lodgins_add;
+    private JTextField fld_lodgind_id;
+    private JButton btn_lodging_delete;
+    private JComboBox cbm_otel_lodgings_features;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -99,11 +103,12 @@ public class EmployeeGUI extends JFrame {
                     try {
                         String selectedData = tbl_otel_list.getValueAt(tbl_otel_list.getSelectedRow(), 0).toString();
                         fld_otel_id.setText(selectedData);
-                        loadLodgingsModel(selectedData);
+                        loadLodgingsModel(Integer.parseInt(selectedData));
                     } catch (Exception exception) {
                         System.out.println(exception.getMessage());
                     }
                 });
+
         btn_otel_delete.addActionListener(e -> {
             if (isEmpty(fld_otel_id)) {
                 JOptionPane.showMessageDialog(null, "Lütfen ID alanını doldurunuz!");
@@ -124,19 +129,48 @@ public class EmployeeGUI extends JFrame {
         // Otel Paneli
         // Pansiyon Paneli
         model_lodgings_list = new DefaultTableModel();
-        Object[] col_lodgings_list = {"ID", "Otel Adi","Pansiyon Turu"};
+        Object[] col_lodgings_list = {"ID", "Otel Adi", "Pansiyon Turu"};
         model_lodgings_list.setColumnIdentifiers(col_lodgings_list);
         row_lodgings_list = new Object[col_lodgings_list.length];
+        tbl_lodgings_list.setModel(model_lodgings_list);
+
+        loadLodgingsFeaterus();
+
+        btn_lodgins_add.addActionListener(e -> {
+            if (isEmpty(fld_otel_lodging_id) || cbm_otel_lodgings_features.getSelectedIndex() == -1) {
+                JOptionPane.showMessageDialog(null, "Lütfen tüm alanları doldurunuz!");
+            } else {
+                if (Lodgings.add(
+                        fld_otel_lodging_id.getText(),
+                        cbm_otel_lodgings_features.getSelectedItem().toString())
+
+                ) {
+                    JOptionPane.showMessageDialog(null, "Pansiyon eklendi!", "Bilgi", 1);
+                } else {
+                    JOptionPane.showMessageDialog(null, "Pansiyon eklenemedi!", "Hata", 0);
+                }
+                loadLodgingsModel(Integer.parseInt(fld_otel_id.getText()));
+                Helper.clearTextField(fld_otel_lodging_id);
+            }
+        });
 
         // Pansiyon Paneli
+    }
+
+    private void loadLodgingsFeaterus() {
+        cbm_otel_lodgings_features.removeAllItems();
+        for (Feature feature : Feature.getList("pansiyon ozelligi")) {
+            cbm_otel_lodgings_features.addItem(feature.getType());
+        }
 
     }
 
-    private void loadLodgingsModel(String selectedData) {
-        if (selectedData.length() >= 0) {
-            DefaultTableModel model_lodgings_list = (DefaultTableModel) tbl_lodgings_list.getModel();
-            model_lodgings_list.setRowCount(0);
-            System.out.println(selectedData);
+    private void loadLodgingsModel(int selectedData) {
+
+        DefaultTableModel model_lodgings_list = (DefaultTableModel) tbl_lodgings_list.getModel();
+        model_lodgings_list.setRowCount(0);
+        ArrayList<Lodgings> lodgingsArrayList = Lodgings.getList(selectedData);
+        if (!lodgingsArrayList.isEmpty()) {
             for (Lodgings obj : Lodgings.getList(selectedData)) {
                 int i = 0;
                 row_lodgings_list[i++] = obj.getId();
@@ -145,10 +179,10 @@ public class EmployeeGUI extends JFrame {
                 model_lodgings_list.addRow(row_lodgings_list);
             }
         } else {
-
+            JOptionPane.showMessageDialog(null, "Bu id'li " + selectedData + " otelde pansiyon bulunmamaktadır!", "UYARI", 0);
         }
-    }
 
+    }
 
 
     private void loadHotelModel() {

@@ -4,6 +4,8 @@ import Model.Feature;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class FeaturesGUI extends JFrame {
     private JPanel wrapper;
@@ -38,6 +40,13 @@ public class FeaturesGUI extends JFrame {
         loadAvailables();
 
         btn_submit.addActionListener(e -> {
+            for (int i = 0; i < model_otel_selected.getRowCount(); i++) {
+                if (i == 0) {
+                    fdl_otel_features.setText(model_otel_selected.getValueAt(i, 1).toString());
+                    continue;
+                }
+                fdl_otel_features.setText(fdl_otel_features.getText() + ", " + model_otel_selected.getValueAt(i, 1).toString());
+            }
             dispose();
 
         });
@@ -51,6 +60,18 @@ public class FeaturesGUI extends JFrame {
             model_otel_features.removeRow(selectedRow);
             Object[] row = {id, features};
             model_otel_selected.addRow(row);
+        });
+        btn_delete.addActionListener(e -> {
+            int selectedRow = tbl_selected.getSelectedRow();
+            if (selectedRow == -1) {
+                return;
+            }
+            int id = (int) model_otel_selected.getValueAt(selectedRow, 0);
+            String features = (String) model_otel_selected.getValueAt(selectedRow, 1);
+            model_otel_selected.removeRow(selectedRow);
+            Object[] row = {id, features};
+            model_otel_features.addRow(row);
+
         });
     }
 
