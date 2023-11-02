@@ -1,5 +1,8 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8»€Ÿº¸1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8áË ä¸1
+^
+java:S2259/"BA "NullPointerException" could be thrown; "user" is nullable here.(èÂÚq8Œš´ä¸1
 q
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŽÄ…±ÿÿÿÿÿ8ß€Ÿº¸1
-L	java:S106-"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ8í€Ÿº¸1
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŽÄ…±ÿÿÿÿÿ8»Ì ä¸1
+G	java:S106,"+Replace this use of System.out by a logger.(ÊêÏ³8ÊÌ ä¸1
+L	java:S1067"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ8ÎÌ ä¸1

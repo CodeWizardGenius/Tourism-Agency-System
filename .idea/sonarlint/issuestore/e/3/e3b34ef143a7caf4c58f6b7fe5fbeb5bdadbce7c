@@ -1,0 +1,8 @@
+
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¾Àªœ8‘æ‹¹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8“æ‹¹1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ïçÙ‹¹1
+H
+java:S1168("+Return an empty collection instead of null.(¥¹ï8Ÿ§Ê‹¹1

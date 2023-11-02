@@ -23,3 +23,13 @@ I
 src/View/EmployeeGUI.form,4\6\46cc24df2a79c296ed5cd1ebb1d3e1656d6b61a7
 F
 src/View/LoginGUI.form,a\5\a51dc96a5b41af2f7a8d7faac01c0fe51d4023fc
+G
+src/Model/Lodgings.java,3\2\3262b6442718993d26f032b39708723b56295516
+D
+src/Model/Hotel.java,c\0\c0b0d899c5a0816c09e31a2cbfa99188ecdbb46a
+I
+src/View/FeaturesGUI.java,2\3\239a01a563243405053c056b6410a6faf50d68c3
+I
+src/View/FeaturesGUI.form,5\4\546db69be12e77ffb6b026d30de24f6bbd0e61d9
+F
+src/Model/Feature.java,e\3\e3b34ef143a7caf4c58f6b7fe5fbeb5bdadbce7c

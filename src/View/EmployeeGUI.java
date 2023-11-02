@@ -8,6 +8,9 @@ import Model.Lodgings;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import static Helper.Helper.isEmpty;
 
 public class EmployeeGUI extends JFrame {
@@ -30,6 +33,7 @@ public class EmployeeGUI extends JFrame {
     private JButton btn_otel_delete;
     private JPanel pnl_lodgings_list;
     private JTable tbl_lodgings_list;
+    private JButton btn_otel_features;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -113,6 +117,10 @@ public class EmployeeGUI extends JFrame {
             }
 
         });
+
+        btn_otel_features.addActionListener(e -> {
+            new FeaturesGUI(fdl_otel_features);
+        });
         // Otel Paneli
         // Pansiyon Paneli
         model_lodgings_list = new DefaultTableModel();
@@ -121,6 +129,7 @@ public class EmployeeGUI extends JFrame {
         row_lodgings_list = new Object[col_lodgings_list.length];
 
         // Pansiyon Paneli
+
     }
 
     private void loadLodgingsModel(String selectedData) {

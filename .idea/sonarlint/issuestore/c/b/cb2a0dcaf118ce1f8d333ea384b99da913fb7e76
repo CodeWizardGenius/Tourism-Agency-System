@@ -1,11 +1,14 @@
 
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8½òéº¸1
-t	java:S116
-"SRename this field "btn_exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛŸÒıÿÿÿÿ8Æòéº¸1
-p	java:S116"TRename this field "lbl_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œí—¶8Æòéº¸1
+t	java:S116"SRename this field "btn_exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛŸÒıÿÿÿÿ8Æòéº¸1
+p	java:S116"TRename this field "lbl_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œí—¶8Æòéº¸1
+D
+java:S1948"'Make "admin" transient or serializable.(Œ¦‘¢8Ûûøâ¸1
 i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8Îòéº¸1
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8Îòéº¸1
 T
-java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8Ğòéº¸1
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8Š´øâ¸1
 W
-java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8Ğòéº¸1
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8Š´øâ¸1
+F
+java:S1068")Remove this unused "admin" private field.(Œ¦‘¢8ãûøâ¸1

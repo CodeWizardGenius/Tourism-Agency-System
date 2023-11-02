@@ -1,4 +1,9 @@
 
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ïW8ëô‡º¸1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ïW8ëƒÌç¸1
 W
-java:S1118":Add a private constructor to hide the implicit public one.(‘ÜÃ©8ïô‡º¸1
+java:S1118":Add a private constructor to hide the implicit public one.(‘ÜÃ©8÷ƒÌç¸1
+j	java:S100
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†öĞ–8ûƒÌç¸1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–±š‹şÿÿÿÿ8üƒÌç¸1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·³èğùÿÿÿÿ8ıƒÌç¸1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÈ˜­øÿÿÿÿ8şƒÌç¸1
