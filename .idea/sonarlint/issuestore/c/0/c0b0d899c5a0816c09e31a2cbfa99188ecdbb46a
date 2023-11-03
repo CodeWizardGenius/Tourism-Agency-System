@@ -1,12 +1,12 @@
 
 Œ
-java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤õœR8ÑªÒŠ¹1
-r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è€½¥ûÿÿÿÿ8ÑªÒŠ¹1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ÓªÒŠ¹1
+java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤õœR8Ä¿Ç·¹1
+r	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è€½¥ûÿÿÿÿ8Å¿Ç·¹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8È¿Ç·¹1
 i
-java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8êªÒŠ¹1
+java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Û¿Ç·¹1
 i
-java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8êªÒŠ¹1
+java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Û¿Ç·¹1
 i
-java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8êªÒŠ¹1
-b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8íªÒŠ¹1
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Û¿Ç·¹1
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8Þ¿Ç·¹1

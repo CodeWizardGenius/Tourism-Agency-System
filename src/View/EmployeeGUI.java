@@ -1,10 +1,7 @@
 package View;
 
 import Helper.Helper;
-import Model.Employee;
-import Model.Feature;
-import Model.Hotel;
-import Model.Lodgings;
+import Model.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -38,6 +35,7 @@ public class EmployeeGUI extends JFrame {
     private JTextField fld_lodgind_id;
     private JButton btn_lodging_delete;
     private JComboBox cbm_otel_lodgings_features;
+    private JTable tbl_room_list;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -50,6 +48,9 @@ public class EmployeeGUI extends JFrame {
     private Object[] row_hotel_delete;
     private DefaultTableModel model_lodgings_list;
     private Object[] row_lodgings_list;
+
+    private DefaultTableModel model_room_list;
+    private Object[] row_room_list;
 
     public EmployeeGUI(Employee employee) {
         this.employee = employee;
@@ -104,6 +105,7 @@ public class EmployeeGUI extends JFrame {
                         String selectedData = tbl_otel_list.getValueAt(tbl_otel_list.getSelectedRow(), 0).toString();
                         fld_otel_id.setText(selectedData);
                         loadLodgingsModel(Integer.parseInt(selectedData));
+                        fld_otel_lodging_id.setText(selectedData);
                     } catch (Exception exception) {
                         System.out.println(exception.getMessage());
                     }
@@ -152,9 +154,71 @@ public class EmployeeGUI extends JFrame {
                 loadLodgingsModel(Integer.parseInt(fld_otel_id.getText()));
                 Helper.clearTextField(fld_otel_lodging_id);
             }
+
         });
+        tbl_lodgings_list.getSelectionModel().addListSelectionListener(
+                e -> {
+                    try {
+                        String selectedData = tbl_lodgings_list.getValueAt(tbl_lodgings_list.getSelectedRow(), 0).toString();
+                        fld_lodgind_id.setText(selectedData);
+                    } catch (Exception exception) {
+                        System.out.println(exception.getMessage());
+                    }
+                });
+
 
         // Pansiyon Paneli
+        btn_lodging_delete.addActionListener(e -> {
+            if (isEmpty(fld_lodgind_id)) {
+                JOptionPane.showMessageDialog(null, "Lütfen ID alanını doldurunuz!", "UYARI", 0);
+            } else {
+                if (Helper.confirm("Emin misiniz?", "UYARI", 0)) {
+                    if (Lodgings.delete(Integer.parseInt(fld_lodgind_id.getText()))) {
+                        JOptionPane.showMessageDialog(null, "Pansiyon silindi!", "Bilgi", 1);
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Pansiyon silinemedi!", "Hata", 0);
+                    }
+
+                }
+                loadLodgingsModel(Integer.parseInt(fld_otel_id.getText()));
+                Helper.clearTextField(fld_lodgind_id);
+            }
+
+        });
+
+        // Oda Paneli
+
+        model_room_list = new DefaultTableModel();
+        Object[] col_room_list = {"ID", "Otel Adı", "Pansiyon Turu", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Fiyat"};
+        model_room_list.setColumnIdentifiers(col_room_list);
+        row_room_list = new Object[col_room_list.length];
+        loadRoomModel();
+        tbl_room_list.setModel(model_room_list);
+
+    }
+
+    private void loadRoomModel() {
+        DefaultTableModel model_room_list = (DefaultTableModel) tbl_room_list.getModel();
+        model_room_list.setRowCount(0);
+        //"ID", "Otel Adı", "Pansiyon Turu", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Fiyat"
+        ArrayList<Room> roomArrayList = Room.getList();
+        if (!roomArrayList.isEmpty()) {
+            for (Room obj : roomArrayList) {
+                int i = 0;
+                row_room_list[i++] = obj.getId();
+                row_room_list[i++] = obj.getHotel().getName();
+                row_room_list[i++] = obj.getLodgings().getType();
+                row_room_list[i++] = obj.getName();
+                row_room_list[i++] = obj.getFeatures();
+                row_room_list[i++] = obj.getBed_number();
+                row_room_list[i++] = obj.getSqr_meter();
+                row_room_list[i++] = obj.getStock();
+                row_room_list[i++] = obj.getPrice();
+                model_room_list.addRow(row_room_list);
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "Bu id'li " + fld_otel_id.getText() + " otelde pansiyon bulunmamaktadır!", "UYARI", 0);
+        }
     }
 
     private void loadLodgingsFeaterus() {

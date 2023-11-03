@@ -33,7 +33,7 @@ I
 src/View/FeaturesGUI.form,5\4\546db69be12e77ffb6b026d30de24f6bbd0e61d9
 F
 src/Model/Feature.java,e\3\e3b34ef143a7caf4c58f6b7fe5fbeb5bdadbce7c
-P
- src/View/LodgingFeaturesGUI.java,3\a\3ae28a40a08b15169fdf56ac318641fd545a7da5
-P
- src/View/LodgingFeaturesGUI.form,d\1\d138ab2e968dadebbf5ad38c5dfcaf33c5924722
+C
+src/Model/Room.java,7\b\7b56ffcb233e85acf9d100207259cc6b3a757656
+E
+src/Model/Season.java,2\9\29a11deb73d4697a52cc42a6750280e1d2fcc7be

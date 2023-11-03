@@ -22,4 +22,12 @@ public class Contanct {
     public static String LIST_QUERY_PARAMETRE(String table, String parametre, int value) {
         return "SELECT * FROM " + table + " WHERE " + parametre + " = " + value;
     }
+
+    public static String FETCH_QUERY(String lodgings, int lodgingsId) {
+        return "SELECT * FROM " + lodgings + " WHERE id = " + lodgingsId;
+    }
+
+    public static String SELECT_QUERY(String season, int seasonId) {
+        return "SELECT * FROM " + season + " WHERE id = " + seasonId;
+    }
 }

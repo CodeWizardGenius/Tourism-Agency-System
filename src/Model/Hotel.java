@@ -79,6 +79,30 @@ public class Hotel {
         }
     }
 
+    public static Hotel getFetch(int otelId) {
+        String query = Contanct.FETCH_QUERY("otel", otelId);
+        Hotel hotel = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                hotel = new Hotel(
+                        resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getString("region"),
+                        resultSet.getString("city"),
+                        resultSet.getString("address"),
+                        resultSet.getString("e-mail"),
+                        resultSet.getString("phone"),
+                        resultSet.getInt("star"),
+                        resultSet.getString("features")
+                );
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return hotel;
+    }
 
 
     public int getId() {

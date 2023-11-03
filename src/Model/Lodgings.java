@@ -53,6 +53,38 @@ public class Lodgings {
         }
     }
 
+    public static boolean delete(int lodging_id) {
+        String query = Contanct.DELETE_QUERY("lodgings", lodging_id);
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    public static Lodgings getFetch(int lodgingsId) {
+        String query = Contanct.FETCH_QUERY("lodgings", lodgingsId);
+        Lodgings lodgings = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.execute(query);
+            ResultSet resultSet = statement.getResultSet();
+            while (resultSet.next()) {
+                lodgings = new Lodgings(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("type")
+                );
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return lodgings;
+    }
+
     public int getId() {
         return id;
     }
