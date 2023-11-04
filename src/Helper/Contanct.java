@@ -34,4 +34,8 @@ public class Contanct {
     public static String SELECT_QUERY(String season) {
         return "SELECT * FROM " + season;
     }
+
+    public static String INSERT_QUERY(String season, int id, String string, String text, String text1) {
+        return "INSERT INTO " + season + " ( `otel_id`, `start_date`, `end_date`, `name`) VALUES ('" + id + "', '" + string + "', '" + text + "', '" + text1 + "')";
+    }
 }

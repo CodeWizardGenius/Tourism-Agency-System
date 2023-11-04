@@ -55,6 +55,18 @@ public class Room {
         }
     }
 
+    public static boolean delete(int i) {
+        String query = "DELETE FROM `room` WHERE `room`.`id` = "+i;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
+    }
+
     public int getPrice_adult() {
         return price_adult;
     }

@@ -19,6 +19,7 @@ public class Season {
     public Season(int id, int otel_id, String start_date, String end_date, String name) {
         this.id = id;
         this.otel_id = otel_id;
+        this.hotel = Hotel.getFetch(otel_id);
         this.start_date = start_date;
         this.end_date = end_date;
         this.name = name;
@@ -44,6 +45,31 @@ public class Season {
             throwables.printStackTrace();
         }
         return list;
+    }
+
+    public static boolean add(int id, String string, String text, String text1) {
+        System.out.println(id + " " + string + " " + text + " " + text1);
+        String query = Contanct.INSERT_QUERY("season", id, string, text, text1);
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return false;
+    }
+
+    public static boolean delete(int i) {
+        String query = Contanct.DELETE_QUERY("season", i);
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return false;
     }
 
     public String getName() {
