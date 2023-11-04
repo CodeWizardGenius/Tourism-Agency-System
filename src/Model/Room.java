@@ -42,6 +42,19 @@ public class Room {
         this.sqr_meter = sqr_meter;
     }
 
+    public static boolean add(int id, String string, String string1, String string2, String string3, String text, String text1, String text2, String text3, String text4, String text5) {
+        String query = "INSERT INTO `room` (`id`, `otel_id`, `lodgings_id`, `season_id`, `features`, `name`, `stock`, `bed_number`, `sqr_meter`, `price_adult`, `price_child`) VALUES (NULL, '"+string+"', '"+string1+"', '"+string2+"', '"+string3+"', '"+text+"', '"+text1+"', '"+text2+"', '"+text3+"', '"+text4+"', '"+text5+"')";
+
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+            return false;
+        }
+    }
+
     public int getPrice_adult() {
         return price_adult;
     }

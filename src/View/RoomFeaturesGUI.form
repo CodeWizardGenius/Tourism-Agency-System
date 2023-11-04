@@ -21,7 +21,7 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <text value="Secilmeyen Ozellikler"/>
             </properties>
           </component>
           <scrollpane id="66960">
@@ -31,7 +31,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="bbc8b" class="javax.swing.JTable" binding="table1" default-binding="true">
+              <component id="bbc8b" class="javax.swing.JTable" binding="tbl_availables">
                 <constraints/>
                 <properties/>
               </component>
@@ -47,12 +47,12 @@
         <properties/>
         <border type="none"/>
         <children>
-          <component id="e86df" class="javax.swing.JButton" binding="button1" default-binding="true">
+          <component id="e86df" class="javax.swing.JButton" binding="btn_add">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Button"/>
+              <text value="Ekle &gt;"/>
             </properties>
           </component>
           <vspacer id="58629">
@@ -60,12 +60,12 @@
               <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
             </constraints>
           </vspacer>
-          <component id="2ceed" class="javax.swing.JButton" binding="button2" default-binding="true">
+          <component id="2ceed" class="javax.swing.JButton" binding="btn_delete">
             <constraints>
               <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Button"/>
+              <text value="&lt; Sil "/>
             </properties>
           </component>
           <vspacer id="a0d63">
@@ -73,12 +73,12 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
             </constraints>
           </vspacer>
-          <component id="78837" class="javax.swing.JButton" binding="button3" default-binding="true">
+          <component id="78837" class="javax.swing.JButton" binding="btn_submit">
             <constraints>
               <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Button"/>
+              <text value="Gonder"/>
             </properties>
           </component>
         </children>
@@ -96,7 +96,7 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <text value="Secilen Ozellikler"/>
             </properties>
           </component>
           <scrollpane id="3500c">
@@ -106,7 +106,7 @@
             <properties/>
             <border type="none"/>
             <children>
-              <component id="1a7d3" class="javax.swing.JTable" binding="table2" default-binding="true">
+              <component id="1a7d3" class="javax.swing.JTable" binding="tbl_selected">
                 <constraints/>
                 <properties/>
               </component>

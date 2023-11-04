@@ -13,11 +13,15 @@ L
 java:S3740B"/Provide the parametrized type for this generic.(­˜Şÿ8ÇÆà¹1
 d
 java:S1192™"FDefine a constant instead of duplicating this literal "UYARI" 5 times.(„Ö–˜8¢ÇÆà¹1
+…
+java:S1192x"cDefine a constant instead of duplicating this literal "LÃ¼tfen tÃ¼m alanlarÄ± doldurunuz!" 3 times.(ƒäíşúÿÿÿÿ8°õ’â¹1
+i
+java:S1192¹"FDefine a constant instead of duplicating this literal "Bilgi" 3 times.(»¢¥ºüÿÿÿÿ8±õ’â¹1
 m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÏª‘8£ÇÆà¹1
 s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¼Üñÿÿÿÿÿ8£ÇÆà¹1
 n	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Î“Ï8£ÇÆà¹1
-n	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë»É8£ÇÆà¹1
-n	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ„¢¶8£ÇÆà¹1
+n	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë»É8£ÇÆà¹1
+n	java:S117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ„¢¶8£ÇÆà¹1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8§ÇÆà¹1
 v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úŠù©8ÉÇÆà¹1
 v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(½©Á«8ÊÇÆà¹1
@@ -100,7 +104,7 @@ java:S1948V"/Make "row_room_list" transient or serializable.(õ§Úøÿÿÿÿ8ÑÇÆà¹1
 E
 java:S1948W"(Make "hotels" transient or serializable.(Ôä´º8ÑÇÆà¹1
 t
-java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(¹ÉÙÿÿÿÿÿ8ÔÇÆà¹1
+java:S3776Z"RRefactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.(¹ÉÙÿÿÿÿÿ8ÔÇÆà¹1
 i
 java:S3252a"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8ÕÇÆà¹1
 H	java:S106‘"+Replace this use of System.out by a logger.(ñ·¤¬8ÚÇÆà¹1
@@ -111,35 +115,23 @@ J
 java:S1602î",Remove useless curly braces around statement(„ı8àÇÆà¹1
 J
 java:S1602õ",Remove useless curly braces around statement(íñæŠ8àÇÆà¹1
-M	java:S106’"+Replace this use of System.out by a logger.(Û½Õôÿÿÿÿÿ8âÇÆà¹1
-M	java:S106•"+Replace this use of System.out by a logger.(ÑİÍÏúÿÿÿÿ8ãÇÆà¹1
+M	java:S106¬"+Replace this use of System.out by a logger.(Û½Õôÿÿÿÿÿ8âÇÆà¹1
+M	java:S106¯"+Replace this use of System.out by a logger.(ÑİÍÏúÿÿÿÿ8ãÇÆà¹1
 S
-java:S1854³"5Remove this useless assignment to local variable "i".(½‹Ô8äÇÆà¹1
+java:S1854Í"5Remove this useless assignment to local variable "i".(½‹Ô8äÇÆà¹1
 X
-java:S1854Î"5Remove this useless assignment to local variable "i".(Ÿˆ¤¼ûÿÿÿÿ8æÇÆà¹1
+java:S1854è"5Remove this useless assignment to local variable "i".(Ÿˆ¤¼ûÿÿÿÿ8æÇÆà¹1
 e
-java:S1117Æ"GRename "model_lodgings_list" which hides the field declared at line 82.(ˆ„¢¶8çÇÆà¹1
+java:S1117à"GRename "model_lodgings_list" which hides the field declared at line 82.(ˆ„¢¶8çÇÆà¹1
 S
-java:S1854ç"5Remove this useless assignment to local variable "i".(Î±¦›8èÇÆà¹1
-^	java:S125Û"<This block of commented-out lines of code should be removed.(¾ıÖøÿÿÿÿ8èÇÆà¹1
+java:S1854"5Remove this useless assignment to local variable "i".(Î±¦›8èÇÆà¹1
+^	java:S125õ"<This block of commented-out lines of code should be removed.(¾ıÖøÿÿÿÿ8èÇÆà¹1
 L
 java:S1068$"/Remove this unused "tabbedPane1" private field.(ÀĞ™©8êÇÆà¹1
 Z
 java:S1068."8Remove this unused "txtarea_ote_features" private field.(—Ğ´şÿÿÿÿ8êÇÆà¹1
 R
 java:S10682"5Remove this unused "pnl_lodgings_list" private field.(¸ Ãğ8êÇÆà¹1
-N
-java:S1068?"2Remove this unused "fld_room_stock" private field.(»ç¼88êÇÆà¹1
-Q
-java:S1068@"/Remove this unused "fld_room_no" private field.(êØÈÀúÿÿÿÿ8êÇÆà¹1
-S
-java:S1068A"1Remove this unused "fld_room_area" private field.(å‡¹ıÿÿÿÿ8êÇÆà¹1
-U
-java:S1068C"8Remove this unused "fld_room_adult_price" private field.(şÈåŸ8êÇÆà¹1
-Z
-java:S1068D"8Remove this unused "fld_room_child_price" private field.(èˆ¶Ÿúÿÿÿÿ8êÇÆà¹1
-R
-java:S1068G"0Remove this unused "btn_room_add" private field.(ÕÎäªøÿÿÿÿ8êÇÆà¹1
 N
 java:S1068K",Remove this unused "employee" private field.(ç¬ß´ûÿÿÿÿ8êÇÆà¹1
 T

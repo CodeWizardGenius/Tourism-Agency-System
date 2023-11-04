@@ -245,6 +245,32 @@ public class EmployeeGUI extends JFrame {
         btn_room_features.addActionListener(e -> {
             new RoomFeaturesGUI(fld_room_features);
         });
+        btn_room_add.addActionListener(e -> {
+            if (isEmpty(fld_room_no) || isEmpty(fld_room_area) || isEmpty(fld_room_stock) || isEmpty(fld_room_adult_price) || isEmpty(fld_room_child_price) || cmb_room_otel_name.getSelectedIndex() == -1 || cmb_room_lodging_name.getSelectedIndex() == -1 || cmb_room_season_name.getSelectedIndex() == -1 || cbm_room_name.getSelectedIndex() == -1 || cmb_room_type.getSelectedIndex() == -1 || isEmpty(fld_room_features)) {
+                JOptionPane.showMessageDialog(null, "Lütfen tüm alanları doldurunuz!");
+            } else {
+                if (Room.add(
+                        hotels.get(cmb_room_otel_name.getSelectedIndex()).getId(),
+                        cmb_room_lodging_name.getSelectedItem().toString(),
+                        cmb_room_season_name.getSelectedItem().toString(),
+                        cbm_room_name.getSelectedItem().toString(),
+                        cmb_room_type.getSelectedItem().toString(),
+                        fld_room_no.getText(),
+                        fld_room_features.getText(),
+                        fld_room_area.getText(),
+                        fld_room_stock.getText(),
+                        fld_room_adult_price.getText(),
+                        fld_room_child_price.getText()
+                )) {
+                    JOptionPane.showMessageDialog(null, "Oda eklendi!", "Bilgi", 1);
+                } else {
+                    JOptionPane.showMessageDialog(null, "Oda eklenemedi!", "Hata", 0);
+                }
+                loadRoomModel();
+                Helper.clearTextField(fld_room_no, fld_room_area, fld_room_stock, fld_room_adult_price, fld_room_child_price, fld_room_features);
+            }
+
+        });
     }
 
     private void loadRoomType() {
