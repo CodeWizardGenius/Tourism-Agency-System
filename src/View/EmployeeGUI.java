@@ -5,9 +5,29 @@ import Model.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 import static Helper.Helper.isEmpty;
+
+enum RoomName {
+    TekKişilik,
+    ÇiftKişilik,
+    ÜçKişilik,
+    DörtKişilik,
+    Aile,
+    KralDairesi,
+    Engelli,
+    JuniorSuite,
+    Dubleks,
+    Suit
+
+    }
+
+    enum RoomType {
+    single,doublee,triple,family,king,disabled,junior,duplex,suit
+    }
 
 public class EmployeeGUI extends JFrame {
     private JPanel wrapper;
@@ -35,7 +55,20 @@ public class EmployeeGUI extends JFrame {
     private JTextField fld_lodgind_id;
     private JButton btn_lodging_delete;
     private JComboBox cbm_otel_lodgings_features;
-    private JTable tbl_room_list;
+    private JTable tbl_room_list_new;
+    private JComboBox cmb_room_otel_name;
+    private JComboBox cmb_room_lodging_name;
+    private JComboBox cmb_room_season_name;
+    private JComboBox cbm_room_name;
+    private JTextField fld_room_stock;
+    private JTextField fld_room_no;
+    private JTextField fld_room_area;
+    private JComboBox cmb_room_type;
+    private JTextField fld_room_adult_price;
+    private JTextField fld_room_child_price;
+    private JTextField fld_room_features;
+    private JButton btn_room_features;
+    private JButton btn_room_add;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -51,13 +84,15 @@ public class EmployeeGUI extends JFrame {
 
     private DefaultTableModel model_room_list;
     private Object[] row_room_list;
+    private ArrayList<Hotel> hotels;
+
 
     public EmployeeGUI(Employee employee) {
         this.employee = employee;
         lbl_title.setText("Personel Panel");
         add(wrapper);
         setSize(1500, 800);
-        setTitle("Login");
+        setTitle("Employee Panel");
         setLocationRelativeTo(null); //ekranda ortada açılması için
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setResizable(false);
@@ -189,18 +224,72 @@ public class EmployeeGUI extends JFrame {
         // Oda Paneli
 
         model_room_list = new DefaultTableModel();
-        Object[] col_room_list = {"ID", "Otel Adı", "Pansiyon Turu", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Fiyat"};
+        Object[] col_room_list = {"ID", "Otel Adı", "Pansiyon Turu", "Donem Adi", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"};
         model_room_list.setColumnIdentifiers(col_room_list);
         row_room_list = new Object[col_room_list.length];
+        tbl_room_list_new.setModel(model_room_list);
         loadRoomModel();
-        tbl_room_list.setModel(model_room_list);
 
+        cmb_room_otel_name.removeAllItems();
+
+        loadComboBoxHotelName();
+        loadComboxBoxLodgingsName();
+
+        cmb_room_otel_name.addActionListener(e -> {
+            loadComboxBoxLodgingsName();
+        });
+
+        loadSeasonName();
+        loadRoomName();
+        loadRoomType();
+        btn_room_features.addActionListener(e -> {
+            new RoomFeaturesGUI(fld_room_features);
+        });
+    }
+
+    private void loadRoomType() {
+        cmb_room_type.removeAllItems();
+        for (RoomType roomType : RoomType.values()) {
+            cmb_room_type.addItem(roomType);
+        }
+    }
+
+    private void loadRoomName() {
+        cbm_room_name.removeAllItems();
+        for (RoomName roomName : RoomName.values()) {
+            cbm_room_name.addItem(roomName+" Oda");
+        }
+    }
+
+    private void loadSeasonName() {
+        cmb_room_season_name.removeAllItems();
+        for (Feature feature : Feature.getList("sezon ozellikleri")) {
+            cmb_room_season_name.addItem(feature.getType());
+        }
+    }
+
+
+    private void loadComboxBoxLodgingsName() {
+        cmb_room_lodging_name.removeAllItems();
+        System.out.println(cmb_room_otel_name.getSelectedIndex());
+        for (Lodgings lodgings : Lodgings.getList(hotels.get(cmb_room_otel_name.getSelectedIndex()).getId())) {
+            cmb_room_lodging_name.addItem(lodgings.getType());
+            System.out.println(lodgings.getType());
+        }
+    }
+
+    private void loadComboBoxHotelName() {
+        cmb_room_otel_name.removeAllItems();
+        hotels = Hotel.getList();
+        for (Hotel hotel : hotels) {
+            cmb_room_otel_name.addItem(hotel.getName());
+        }
     }
 
     private void loadRoomModel() {
-        DefaultTableModel model_room_list = (DefaultTableModel) tbl_room_list.getModel();
-        model_room_list.setRowCount(0);
-        //"ID", "Otel Adı", "Pansiyon Turu", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Fiyat"
+        DefaultTableModel model_room_clear = (DefaultTableModel) tbl_room_list_new.getModel();
+        model_room_clear.setRowCount(0);
+        //"ID", "Otel Adı", "Pansiyon Turu","Donem Adi", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"
         ArrayList<Room> roomArrayList = Room.getList();
         if (!roomArrayList.isEmpty()) {
             for (Room obj : roomArrayList) {
@@ -208,14 +297,17 @@ public class EmployeeGUI extends JFrame {
                 row_room_list[i++] = obj.getId();
                 row_room_list[i++] = obj.getHotel().getName();
                 row_room_list[i++] = obj.getLodgings().getType();
+                row_room_list[i++] = obj.getSeason().getName();
                 row_room_list[i++] = obj.getName();
                 row_room_list[i++] = obj.getFeatures();
                 row_room_list[i++] = obj.getBed_number();
                 row_room_list[i++] = obj.getSqr_meter();
                 row_room_list[i++] = obj.getStock();
-                row_room_list[i++] = obj.getPrice();
-                model_room_list.addRow(row_room_list);
+                row_room_list[i++] = obj.getPrice_adult() + " TL";
+                row_room_list[i++] = obj.getPrice_child() + " TL";
+                model_room_clear.addRow(row_room_list);
             }
+
         } else {
             JOptionPane.showMessageDialog(null, "Bu id'li " + fld_otel_id.getText() + " otelde pansiyon bulunmamaktadır!", "UYARI", 0);
         }

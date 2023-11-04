@@ -1,6 +1,6 @@
 
 l
-java:S1192"ODefine a constant instead of duplicating this literal "SELECT * FROM " 4 times.(«üÇø8İÂÃ·¹1
+java:S1192"ODefine a constant instead of duplicating this literal "SELECT * FROM " 5 times.(«üÇø8İÂÃ·¹1
 o
 java:S1192"MDefine a constant instead of duplicating this literal " WHERE id = " 3 times.(¨ÂÂ¢øÿÿÿÿ8Ò×Ë·¹1
 u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ïW8ëƒÌç¸1
@@ -12,4 +12,5 @@ o	java:S100"NRename this method name to match the regular expression '^[a-z][
 o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·³èğùÿÿÿÿ8ıƒÌç¸1
 o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÈ˜­øÿÿÿÿ8şƒÌç¸1
 j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÊœÔ8äôÂ·¹1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½‚«Øøÿÿÿÿ8¡ªË·¹1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏùÏÌ8¡ªË·¹1
+o	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÛù–ıÿÿÿÿ8ãÑ²ß¹1

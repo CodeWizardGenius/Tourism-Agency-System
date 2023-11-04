@@ -1,32 +1,42 @@
 
 ’
-java:S1319C"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Èæ‰–ÿÿÿÿÿ8ŠËÁ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Õï†şÿÿÿÿ8ŠËÁ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Õï†şÿÿÿÿ8ŠËÁ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Õï†şÿÿÿÿ8ŠËÁ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Õï†şÿÿÿÿ8ŠËÁ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Õï†şÿÿÿÿ8ŠËÁ·¹1
-l	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8‹ËÁ·¹1
-r	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ö°Òûÿÿÿÿ8‹ËÁ·¹1
-r	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ğ©Êÿÿÿÿÿ8‹ËÁ·¹1
-s	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ş‰™úÿÿÿÿ8‹ËÁ·¹1
-s	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàØêÿÿÿÿÿ8‹ËÁ·¹1
+java:S1319U"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Èæ‰–ÿÿÿÿÿ8’ëÄÚ¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ŠËÁ·¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ŠËÁ·¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ŠËÁ·¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ŠËÁ·¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ŠËÁ·¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ÓÌÚ¹1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨‹ÿî8ÓÌÚ¹1
+m	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ÷î–8Ş¤ÍÚ¹1
+r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û§¯âûÿÿÿÿ8Ş¤ÍÚ¹1
+l	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8«æÎÚ¹1
+s	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ö°Òûÿÿÿÿ8¬æÎÚ¹1
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ğ©Êÿÿÿÿÿ8¬æÎÚ¹1
+s	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ş‰™úÿÿÿÿ8¬æÎÚ¹1
+s	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàØêÿÿÿÿÿ8¬æÎÚ¹1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ŒËÁ·¹1
 i
-java:S2095G"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÅÆò·¹1
+java:S2095Y"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÈæÎÚ¹1
 s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8ËÁ·¹1
 w	java:S116"VRename this field "lodgings_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÏ±²şÿÿÿÿ8ËÁ·¹1
 p	java:S116"TRename this field "season_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‡˜î8ËÁ·¹1
-q	java:S116"URename this field "bed_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¸†°8ËÁ·¹1
-u	java:S116"TRename this field "sqr_meter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãâ•îùÿÿÿÿ8ËÁ·¹1
-c	java:S107"BConstructor has 10 parameters, which is greater than 7 authorized.(’Õï†şÿÿÿÿ8’ËÁ·¹1
-j	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8—ËÁ·¹1
-i	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8—ËÁ·¹1
-o	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æµ°Êûÿÿÿÿ8˜ËÁ·¹1
-o	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ö°Òûÿÿÿÿ8˜ËÁ·¹1
-i	java:S100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è8™ËÁ·¹1
-o	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ğ©Êÿÿÿÿÿ8™ËÁ·¹1
-k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µó‚¶8œËÁ·¹1
-p	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ş‰™úÿÿÿÿ8ËÁ·¹1
-k	java:S100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è†ÅÄ8ËÁ·¹1
-p	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàØêÿÿÿÿÿ8ËÁ·¹1
+w	java:S116"VRename this field "price_adult" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ùäêûÿÿÿÿ8‹ÍÊÚ¹1
+w	java:S116"VRename this field "price_child" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æÿê¦úÿÿÿÿ8™ğÊÚ¹1
+q	java:S116"URename this field "bed_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…¸†°8ËÁ·¹1
+u	java:S116"TRename this field "sqr_meter" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãâ•îùÿÿÿÿ8ËÁ·¹1
+^	java:S107"BConstructor has 11 parameters, which is greater than 7 authorized.(¨‹ÿî8’ËÁ·¹1
+o	java:S100-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÛÍ¼øÿÿÿÿ8´ÓÌÚ¹1
+j	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ÷î–8´ÓÌÚ¹1
+o	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÒ‚—üÿÿÿÿ8µÓÌÚ¹1
+o	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û§¯âûÿÿÿÿ8µÓÌÚ¹1
+j	java:S100y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8ÜæÎÚ¹1
+i	java:S100}"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8İæÎÚ¹1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æµ°Êûÿÿÿÿ8İæÎÚ¹1
+p	java:S100…"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ö°Òûÿÿÿÿ8ŞæÎÚ¹1
+j	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è8ŞæÎÚ¹1
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ğ©Êÿÿÿÿÿ8ßæÎÚ¹1
+k	java:S100­"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µó‚¶8áæÎÚ¹1
+p	java:S100±"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ş‰™úÿÿÿÿ8áæÎÚ¹1
+k	java:S100µ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è†ÅÄ8âæÎÚ¹1
+p	java:S100¹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàØêÿÿÿÿÿ8âæÎÚ¹1

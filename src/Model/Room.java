@@ -17,14 +17,15 @@ public class Room {
     private Lodgings lodgings;
     private int season_id;
     private Season season;
-    private int price;
+    private int price_adult;
+    private int price_child;
     private String features;
     private String name;
     private int stock;
     private int bed_number;
     private int sqr_meter;
 
-    public Room(int id, int otel_id, int lodgings_id, int season_id, int price, String features, String name, int stock, int bed_number, int sqr_meter) {
+    public Room(int id, int otel_id, int lodgings_id, int season_id,  String features, String name, int stock, int bed_number, int sqr_meter , int price_adult, int price_child) {
         this.id = id;
         this.otel_id = otel_id;
         this.hotel = Hotel.getFetch(otel_id);
@@ -32,12 +33,29 @@ public class Room {
         this.lodgings = Lodgings.getFetch(lodgings_id);
         this.season_id = season_id;
         this.season = Season.getFetch(season_id);
-        this.price = price;
+        this.price_adult = price_adult;
+        this.price_child = price_child;
         this.features = features;
         this.name = name;
         this.stock = stock;
         this.bed_number = bed_number;
         this.sqr_meter = sqr_meter;
+    }
+
+    public int getPrice_adult() {
+        return price_adult;
+    }
+
+    public void setPrice_adult(int price_adult) {
+        this.price_adult = price_adult;
+    }
+
+    public int getPrice_child() {
+        return price_child;
+    }
+
+    public void setPrice_child(int price_child) {
+        this.price_child = price_child;
     }
 
     public Hotel getHotel() {
@@ -76,12 +94,13 @@ public class Room {
                         resultSet.getInt("otel_id"),
                         resultSet.getInt("lodgings_id"),
                         resultSet.getInt("season_id"),
-                        resultSet.getInt("price"),
                         resultSet.getString("features"),
                         resultSet.getString("name"),
                         resultSet.getInt("stock"),
                         resultSet.getInt("bed_number"),
-                        resultSet.getInt("sqr_meter")
+                        resultSet.getInt("sqr_meter"),
+                        resultSet.getInt("price_adult"),
+                        resultSet.getInt("price_child")
                 );
                 roomArrayList.add(roomObject);
             }
@@ -123,13 +142,9 @@ public class Room {
         this.season_id = season_id;
     }
 
-    public int getPrice() {
-        return price;
-    }
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
+
+
 
     public String getFeatures() {
         return features;

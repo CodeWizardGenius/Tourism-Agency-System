@@ -37,3 +37,7 @@ C
 src/Model/Room.java,7\b\7b56ffcb233e85acf9d100207259cc6b3a757656
 E
 src/Model/Season.java,2\9\29a11deb73d4697a52cc42a6750280e1d2fcc7be
+M
+src/View/RoomFeaturesGUI.java,4\9\49dece023f7be0b7a56d1527c3f33e89880f797b
+M
+src/View/RoomFeaturesGUI.form,e\5\e5f0ee753f5e9231a5667450d1b3fdfb1fdb7691

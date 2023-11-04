@@ -1,0 +1,17 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8›£Éà¹1
+N
+java:S1172"1Remove this unused method parameter "jTextField".(£ğÈÙ8¨£Éà¹1
+i
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8©£Éà¹1
+L
+java:S1068"*Remove this unused "table1" private field.(’¸Ş¢ÿÿÿÿÿ8ğÊĞà¹1
+G
+java:S1068	"*Remove this unused "table2" private field.(ıê²¿8ùÅÑà¹1
+H
+java:S1068
+"+Remove this unused "button1" private field.(İ¢ÈÒ8’”Òà¹1
+H
+java:S1068"+Remove this unused "button2" private field.(”µ±‘8åÓà¹1
+M
+java:S1068"+Remove this unused "button3" private field.(ÜõûÌúÿÿÿÿ8ìÔà¹1

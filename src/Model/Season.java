@@ -6,19 +6,52 @@ import Helper.DBConnector;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 
 public class Season {
     private int id;
+    private String name;
     private int otel_id;
     private Hotel hotel;
     private String start_date;
     private String end_date;
 
-    public Season(int id, int otel_id, String start_date, String end_date) {
+    public Season(int id, int otel_id, String start_date, String end_date, String name) {
         this.id = id;
         this.otel_id = otel_id;
         this.start_date = start_date;
         this.end_date = end_date;
+        this.name = name;
+    }
+
+    public static ArrayList<Season> getList() {
+        String query = Contanct.SELECT_QUERY("season");
+        ArrayList<Season> list = new ArrayList<>();
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                Season season = new Season(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("start_date"),
+                        resultSet.getString("end_date"),
+                        resultSet.getString("name")
+                );
+                list.add(season);
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return list;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getId() {
@@ -62,7 +95,7 @@ public class Season {
     }
 
     public static Season getFetch(int seasonId) {
-        String query = Contanct.SELECT_QUERY("season", seasonId);
+        String query = Contanct.SELECT_QUERY_WHERE("season", seasonId);
         Season season = null;
         try {
             Statement statement = DBConnector.getConnection().createStatement();
@@ -72,7 +105,8 @@ public class Season {
                     resultSet.getInt("id"),
                     resultSet.getInt("otel_id"),
                     resultSet.getString("start_date"),
-                    resultSet.getString("end_date")
+                    resultSet.getString("end_date"),
+                    resultSet.getString("name")
             );
         } catch (SQLException throwables) {
             throwables.printStackTrace();

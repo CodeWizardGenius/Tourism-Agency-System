@@ -27,7 +27,11 @@ public class Contanct {
         return "SELECT * FROM " + lodgings + " WHERE id = " + lodgingsId;
     }
 
-    public static String SELECT_QUERY(String season, int seasonId) {
+    public static String SELECT_QUERY_WHERE(String season, int seasonId) {
         return "SELECT * FROM " + season + " WHERE id = " + seasonId;
+    }
+
+    public static String SELECT_QUERY(String season) {
+        return "SELECT * FROM " + season;
     }
 }
