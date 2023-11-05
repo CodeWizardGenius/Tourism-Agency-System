@@ -1,23 +1,21 @@
 
 h
-java:S1192"FDefine a constant instead of duplicating this literal "UYARI" 3 times.(ß¹¼©ûÿÿÿÿ8åğ‡ä¸1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8èğ‡ä¸1
-x	java:S116"WRename this field "fld_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¹Œ€ùÿÿÿÿ8ôğ‡ä¸1
-s	java:S116"WRename this field "fld_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûª”¯8ôğ‡ä¸1
-p	java:S116"TRename this field "btn_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ø„ö8ôğ‡ä¸1
-v	java:S116"URename this field "pnl_bottom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¾­Üüÿÿÿÿ8ôğ‡ä¸1
-s	java:S116"RRename this field "pnl_top" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁĞÒ‹ÿÿÿÿÿ8ôğ‡ä¸1
+java:S1192"FDefine a constant instead of duplicating this literal "UYARI" 3 times.(ß¹¼©ûÿÿÿÿ8™è±…º1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8è±…º1
+x	java:S116"WRename this field "fld_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¹Œ€ùÿÿÿÿ8âè±…º1
+s	java:S116"WRename this field "fld_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûª”¯8îè±…º1
+p	java:S116"TRename this field "btn_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ø„ö8öè±…º1
+v	java:S116"URename this field "pnl_bottom" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¾­Üüÿÿÿÿ8÷è±…º1
+s	java:S116"RRename this field "pnl_top" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁĞÒ‹ÿÿÿÿÿ8øè±…º1
 i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8ığ‡ä¸1
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8¾é±…º1
 L
-java:S1874"/Remove this use of "getText"; it is deprecated.(›ÏØ½8ÿğ‡ä¸1
-L	java:S106%"+Replace this use of System.out by a logger.(¢ˆ€°ûÿÿÿÿ8€ñ‡ä¸1
-L	java:S106)"+Replace this use of System.out by a logger.(ç…¥ÿıÿÿÿÿ8ñ‡ä¸1
+java:S1874"/Remove this use of "getText"; it is deprecated.(›ÏØ½8îé±…º1
 Y
-java:S18548"<Remove this useless assignment to local variable "loginGUI".(æëòë8ƒñ‡ä¸1
+java:S18547"<Remove this useless assignment to local variable "loginGUI".(æëòë8Œê±…º1
 J
-java:S14818"-Remove this unused "loginGUI" local variable.(æëòë8„ñ‡ä¸1
+java:S14817"-Remove this unused "loginGUI" local variable.(æëòë8ê±…º1
 P
-java:S1068".Remove this unused "pnl_bottom" private field.(€¾­Üüÿÿÿÿ8…ñ‡ä¸1
+java:S1068".Remove this unused "pnl_bottom" private field.(€¾­Üüÿÿÿÿ8ê±…º1
 M
-java:S1068"+Remove this unused "pnl_top" private field.(ÁĞÒ‹ÿÿÿÿÿ8…ñ‡ä¸1
+java:S1068"+Remove this unused "pnl_top" private field.(ÁĞÒ‹ÿÿÿÿÿ8‘ê±…º1

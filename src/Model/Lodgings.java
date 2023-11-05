@@ -84,6 +84,27 @@ public class Lodgings {
         }
         return lodgings;
     }
+    public static String getFetch(String lodgingsName) {
+        String query = Contanct.FETCH_QUERY("lodgings", "type", lodgingsName);
+        Lodgings lodgings = null;
+        ArrayList<Lodgings> lodgingsArrayList = new ArrayList<>();
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.execute(query);
+            ResultSet resultSet = statement.getResultSet();
+            while (resultSet.next()) {
+                lodgings = new Lodgings(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("type")
+                );
+                lodgingsArrayList.add(lodgings);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return String.valueOf(lodgingsArrayList.get(0).getOtel_id());
+    }
 
     public int getId() {
         return id;

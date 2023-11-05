@@ -1,26 +1,26 @@
 
 k
-java:S1192"IDefine a constant instead of duplicating this literal "lodgings" 3 times.(¬™ü®ûÿÿÿÿ8ÓàÂ·¹1
+java:S1192"IDefine a constant instead of duplicating this literal "lodgings" 4 times.(¬™ü®ûÿÿÿÿ8¸¦ú¹1
 j
-java:S1192"HDefine a constant instead of duplicating this literal "otel_id" 3 times.(¬™ü®ûÿÿÿÿ8‰šÄ·¹1
+java:S1192"HDefine a constant instead of duplicating this literal "otel_id" 4 times.(¬™ü®ûÿÿÿÿ8¸¦ú¹1
 ’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(£ËÊãøÿÿÿÿ8ÔàÂ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ô¶şÿÿÿÿ8ÔàÂ·¹1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ËÊãøÿÿÿÿ8ÔàÂ·¹1
-m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²úØ8ÔàÂ·¹1
-r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üñ‚ûÿÿÿÿ8ÔàÂ·¹1
-l	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8ÔàÂ·¹1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ÖàÂ·¹1
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(£ËÊãøÿÿÿÿ8Ÿ¸¦ú¹1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ô¶şÿÿÿÿ8Ÿ¸¦ú¹1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ËÊãøÿÿÿÿ8Ÿ¸¦ú¹1
+m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²úØ8Ÿ¸¦ú¹1
+r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üñ‚ûÿÿÿÿ8Ÿ¸¦ú¹1
+l	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8Ÿ¸¦ú¹1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8£¸¦ú¹1
 i
-java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8½Š™Ú¹1
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
 i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ğàÂ·¹1
+java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
 i
-java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ğàÂ·¹1
+java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8‹¹¦ú¹1
 i
-java:S2095H"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ğàÂ·¹1
-s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8ğàÂ·¹1
-j	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8ÿàÂ·¹1
-i	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8ÿàÂ·¹1
+java:S2095H"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8…Ÿ¶ú¹1
+s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8¹¦ú¹1
+j	java:S100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8Æ¹¦ú¹1
+i	java:S100y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8Æ¹¦ú¹1
 F
-java:S1068")Remove this unused "hotel" private field.(µìáë8áÂ·¹1
+java:S1068")Remove this unused "hotel" private field.(µìáë8Ú¹¦ú¹1
