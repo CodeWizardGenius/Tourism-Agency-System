@@ -17,7 +17,7 @@ public class LoginGUI extends JFrame {
 
     public LoginGUI() {
         add(wrapper);
-        setSize(600, 500);
+        setSize(600, 600);
         setTitle("Login");
         setLocationRelativeTo(null); //ekranda ortada açılması için
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
