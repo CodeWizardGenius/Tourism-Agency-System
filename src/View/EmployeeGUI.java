@@ -5,8 +5,6 @@ import Model.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 import static Helper.Helper.isEmpty;
@@ -262,9 +260,11 @@ public class EmployeeGUI extends JFrame {
             if (isEmpty(fld_room_no) || isEmpty(fld_room_area) || isEmpty(fld_room_stock) || isEmpty(fld_room_adult_price) || isEmpty(fld_room_child_price) || cmb_room_otel_name.getSelectedIndex() == -1 || cmb_room_lodging_name.getSelectedIndex() == -1 || cmb_room_season_name.getSelectedIndex() == -1 || cbm_room_name.getSelectedIndex() == -1 || cmb_room_type.getSelectedIndex() == -1 || isEmpty(fld_room_features)) {
                 JOptionPane.showMessageDialog(null, "Lütfen tüm alanları doldurunuz!");
             } else {
+                System.out.println(Lodgings.getFetch(cmb_room_lodging_name.getSelectedItem().toString()));
+
                 if (Room.add(
                         hotels.get(cmb_room_otel_name.getSelectedIndex()).getId(),
-                        cmb_room_lodging_name.getSelectedItem().toString(),
+                        Lodgings.getFetch(cmb_room_lodging_name.getSelectedItem().toString()),
                         cmb_room_season_name.getSelectedItem().toString(),
                         cbm_room_name.getSelectedItem().toString(),
                         cmb_room_type.getSelectedItem().toString(),
@@ -312,7 +312,7 @@ public class EmployeeGUI extends JFrame {
 
         //Sezon
         model_season_list = new DefaultTableModel();
-        Object[] col_season_list = {"ID", "Otel Adı",  "Donem Adi", "Baslangic Tarihi", "Bitis Tarihi"};
+        Object[] col_season_list = {"ID", "Otel Adı", "Donem Adi", "Baslangic Tarihi", "Bitis Tarihi"};
         model_season_list.setColumnIdentifiers(col_season_list);
         row_season_list = new Object[col_season_list.length];
         tbl_season_list.setModel(model_season_list);
@@ -378,6 +378,10 @@ public class EmployeeGUI extends JFrame {
         DefaultTableModel model_season_clear = (DefaultTableModel) tbl_season_list.getModel();
         model_season_clear.setRowCount(0);
         ArrayList<Season> seasonArrayList = Season.getList();
+        seasonArrayList.stream().forEach(e -> {
+            System.out.println(e.getId());
+            System.out.println(e.getHotel().getName());
+        });
         if (!seasonArrayList.isEmpty()) {
             for (Season obj : Season.getList()) {
                 int i = 0;

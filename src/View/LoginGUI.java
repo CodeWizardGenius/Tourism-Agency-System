@@ -36,10 +36,12 @@ public class LoginGUI extends JFrame {
                         case "admin":
                             System.out.println("Admin");
                             new AdminGUI((Admin) user);
+                            dispose();
                             break;
                         case "employee":
                             System.out.println("Employee");
                             new EmployeeGUI((Employee) user);
+                            dispose();
                             break;
                         default:
                             Helper.showMessage("Kullanıcı tipi hatalı!", "UYARI", JOptionPane.WARNING_MESSAGE);
