@@ -70,13 +70,15 @@ public class Hotel {
         return isSuccess;
     }
 
-    public static void delete(int otel_id) {
+    public static boolean delete(int otel_id) {
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             statement.execute(Contanct.DELETE_QUERY("otel", otel_id));
+            return true;
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
+        return false;
     }
 
     public static Hotel getFetch(int otelId) {
