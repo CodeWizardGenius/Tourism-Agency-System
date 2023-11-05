@@ -71,6 +71,17 @@ public class Season {
         }
         return false;
     }
+    public static boolean deleteByHotelID(int hotel_id){
+        String query = Contanct.DELETE_QUERY_WHERE("season", "otel_id", hotel_id);
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return false;
+    }
 
     public String getName() {
         return name;

@@ -175,6 +175,10 @@ public class EmployeeGUI extends JFrame {
                         if ( Helper.confirm ("Emin misiniz?" , "UYARI" , 0) )
                             {
                                 Hotel.delete (Integer.parseInt (fld_otel_id.getText ()));
+                               if(Season.delete(Integer.parseInt (fld_otel_id.getText ()))){
+                                   // Otel silinince sezonları da sil
+                                   Helper.showMessage ("Sezonlar silindi!", "Bilgi", 1);
+                               }
 
                             }
                         loadHotelModel ();
@@ -556,11 +560,6 @@ public class EmployeeGUI extends JFrame {
                             model_lodgings_list.addRow (row_lodgings_list);
                         }
                 }
-            else
-                {
-                    JOptionPane.showMessageDialog (null , "Bu id'li " + selectedData + " otelde pansiyon bulunmamaktadır!" , "UYARI" , 0);
-                }
-
         }
 
 
