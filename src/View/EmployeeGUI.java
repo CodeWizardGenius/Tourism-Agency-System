@@ -10,21 +10,21 @@ import java.util.ArrayList;
 import static Helper.Helper.isEmpty;
 
 enum RoomName {
-    TekKişilik,
-    ÇiftKişilik,
-    ÜçKişilik,
-    DörtKişilik,
+    Tek_Kişilik,
+    Çift_Kişilik,
+    Üç_Kişilik,
+    Dört_Kişilik,
     Aile,
-    KralDairesi,
+    Kral_Dairesi,
     Engelli,
-    JuniorSuite,
+    Junior_Suite,
     Dubleks,
     Suit
 
 }
 
 enum RoomType {
-    single, doublee, triple, family, king, disabled, junior, duplex, suit
+    SINGLE, DOUBLE, TRIPLE, FAMILY, KING, DISABLED, JUNIOR, DUBLEX, SUIT
 }
 
 public class EmployeeGUI extends JFrame {
@@ -77,6 +77,12 @@ public class EmployeeGUI extends JFrame {
     private JTable tbl_season_list;
     private JTextField fld_season_id;
     private JButton btn_season_delete;
+    private JTextField textField1;
+    private JTextField textField2;
+    private JTextField textField3;
+    private JTable table1;
+    private JButton bulButton;
+    private JTextField textField4;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -97,20 +103,23 @@ public class EmployeeGUI extends JFrame {
     private Object[] row_season_list;
 
 
-    public EmployeeGUI(Employee employee) {
-        this.employee = employee;
-        lbl_title.setText("Personel Panel");
-        add(wrapper);
-        setSize(1500, 1000);
-        setTitle("Employee Panel");
-        setLocationRelativeTo(null); //ekranda ortada açılması için
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setResizable(false);
-        setVisible(true);
-        btn_exit.addActionListener(e -> {
-            dispose();
-            new LoginGUI();
-        });
+
+    public EmployeeGUI (Employee employee)
+        {
+            this.employee = employee;
+            lbl_title.setText ("Personel Paneli");
+            add (wrapper);
+            setSize (1500 , 1000);
+            setTitle ("Employee Panel");
+            setLocationRelativeTo (null); //ekranda ortada açılması için
+            setDefaultCloseOperation (JFrame.DISPOSE_ON_CLOSE);
+            setResizable (true);
+            setVisible (true);
+            btn_exit.addActionListener (e -> {
+                dispose ();
+                new LoginGUI ();
+            });
+
 
         // Otel Paneli
 

@@ -22,11 +22,11 @@ public class FeaturesGUI extends JFrame {
 
     public FeaturesGUI(JTextField fdl_otel_features) {
         add(wrapper);
-        setSize(500, 500);
-        setTitle("Otel Ozellikler");
+        setSize(800, 500);
+        setTitle("Otel Ozellikleri");
         setLocationRelativeTo(null); //ekranda ortada açılması için
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        setResizable(false);
+        setResizable(true);
         setVisible(true);
 
         model_otel_features = new DefaultTableModel();
