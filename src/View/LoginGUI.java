@@ -34,20 +34,17 @@ public class LoginGUI extends JFrame {
                 } else {
                     switch (user.getType()) {
                         case "admin":
-                            System.out.println("Admin");
-                            new AdminGUI((Admin) user);
                             dispose();
+                            new AdminGUI((Admin) user);
                             break;
                         case "employee":
-                            System.out.println("Employee");
-                            new EmployeeGUI((Employee) user);
                             dispose();
+                            new EmployeeGUI((Employee) user);
                             break;
                         default:
                             Helper.showMessage("Kullanıcı tipi hatalı!", "UYARI", JOptionPane.WARNING_MESSAGE);
                             break;
                     }
-                    dispose();
                 }
             }
         });

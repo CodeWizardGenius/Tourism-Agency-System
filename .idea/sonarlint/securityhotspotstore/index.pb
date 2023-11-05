@@ -41,3 +41,5 @@ M
 src/View/RoomFeaturesGUI.java,4\9\49dece023f7be0b7a56d1527c3f33e89880f797b
 M
 src/View/RoomFeaturesGUI.form,e\5\e5f0ee753f5e9231a5667450d1b3fdfb1fdb7691
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
