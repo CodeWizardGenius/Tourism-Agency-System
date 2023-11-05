@@ -1,14 +1,27 @@
 
+k
+java:S11923"IDefine a constant instead of duplicating this literal "features" 3 times.(È‰Üåûÿÿÿÿ8¶à‹º1
+e
+java:S1192/"HDefine a constant instead of duplicating this literal "address" 3 times.(Õûâ¿8¶à‹º1
+c
+java:S11921"FDefine a constant instead of duplicating this literal "phone" 3 times.(ÄÀØ8¶à‹º1
+i
+java:S11920"GDefine a constant instead of duplicating this literal "e-mail" 3 times.(Ôëçüÿÿÿÿ8¶à‹º1
+i
+java:S1192-"GDefine a constant instead of duplicating this literal "region" 3 times.(»€µËúÿÿÿÿ8¶à‹º1
 Œ
-java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤õœR8Ä¿Ç·¹1
-m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢şî8Å¿Ç·¹1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8È¿Ç·¹1
+java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤õœR8·à‹º1
+m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢şî8·à‹º1
+m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÌ€­8·à‹º1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8¹à‹º1
 i
-java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8¡£÷…º1
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
 i
-java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Û¿Ç·¹1
+java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
 i
-java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Û¿Ç·¹1
+java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
 i
-java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Û¿Ç·¹1
-b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8Ş¿Ç·¹1
+java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
+i
+java:S2095p"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8Üà‹º1

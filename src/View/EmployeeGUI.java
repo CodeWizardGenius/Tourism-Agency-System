@@ -286,16 +286,18 @@ public class EmployeeGUI extends JFrame {
             if (isEmpty(fld_room_no) || isEmpty(fld_room_area) || isEmpty(fld_room_stock) || isEmpty(fld_room_adult_price) || isEmpty(fld_room_child_price) || cmb_room_otel_name.getSelectedIndex() == -1 || cmb_room_lodging_name.getSelectedIndex() == -1 || cmb_room_season_name.getSelectedIndex() == -1 || cbm_room_name.getSelectedIndex() == -1 || cmb_room_type.getSelectedIndex() == -1 || isEmpty(fld_room_features)) {
                 JOptionPane.showMessageDialog(null, "Lütfen tüm alanları doldurunuz!");
             } else {
+                String otel_name=  cmb_room_otel_name.getSelectedItem().toString();
+                int otel_id= Hotel.getFetch(otel_name).getId();
                 if (Room.add(
                         hotels.get(cmb_room_otel_name.getSelectedIndex()).getId(),
-                        cmb_room_lodging_name.getSelectedItem().toString(),
-                        cmb_room_season_name.getSelectedItem().toString(),
-                        cbm_room_name.getSelectedItem().toString(),
-                        cmb_room_type.getSelectedItem().toString(),
-                        fld_room_no.getText(),
+                        Lodgings.getList(hotels.get(cmb_room_otel_name.getSelectedIndex()).getId()).get(cmb_room_lodging_name.getSelectedIndex()).getId(),
+                        Season.getFetch(String.valueOf(otel_id)).getId(),
                         fld_room_features.getText(),
-                        fld_room_area.getText(),
+                        cbm_room_name.getSelectedItem().toString(),
                         fld_room_stock.getText(),
+                        fld_room_no.getText(),
+                        fld_room_area.getText(),
+                        cmb_room_type.getSelectedItem().toString(),
                         fld_room_adult_price.getText(),
                         fld_room_child_price.getText()
                 )) {

@@ -1,33 +1,42 @@
 
+f
+java:S1192'"IDefine a constant instead of duplicating this literal "end_date" 3 times.(¥µæé8É™×‹º1
 j
-java:S1192%"HDefine a constant instead of duplicating this literal "otel_id" 3 times.(–÷ËŸşÿÿÿÿ8û”Û…º1
+java:S1192%"HDefine a constant instead of duplicating this literal "otel_id" 4 times.(–÷ËŸşÿÿÿÿ8Ê™×‹º1
 c
-java:S1192"GDefine a constant instead of duplicating this literal "season" 5 times.(Í¬›8û”Û…º1
+java:S1192"GDefine a constant instead of duplicating this literal "season" 5 times.(Í¬›8Ê™×‹º1
+h
+java:S1192&"KDefine a constant instead of duplicating this literal "start_date" 3 times.(ıøê°8Ê™×‹º1
 
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ıÊ¯É8û”Û…º1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÃ„şÿÿÿÿ8û”Û…º1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÃ„şÿÿÿÿ8û”Û…º1
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÃ„şÿÿÿÿ8û”Û…º1
-r	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÌ‰Øøÿÿÿÿ8û”Û…º1
-l	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8û”Û…º1
-m	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğĞ¿Ì8û”Û…º1
-r	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¼à÷ùÿÿÿÿ8û”Û…º1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ÿ”Û…º1
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ıÊ¯É8Ë™×‹º1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÃ„şÿÿÿÿ8Ë™×‹º1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÃ„şÿÿÿÿ8Ë™×‹º1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÃ„şÿÿÿÿ8Ì™×‹º1
+r	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÌ‰Øøÿÿÿÿ8Ì™×‹º1
+l	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8Ì™×‹º1
+m	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğĞ¿Ì8Ì™×‹º1
+r	java:S117z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¼à÷ùÿÿÿÿ8Ì™×‹º1
+s	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¶Ï»úÿÿÿÿ8Í™×‹º1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8Ñ™×‹º1
 i
-java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8™•Û…º1
+java:S2095B"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8†š×‹º1
 i
-java:S20956"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8™•Û…º1
+java:S20956"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8†š×‹º1
 i
-java:S2095B"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8™•Û…º1
+java:S2095M"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8†š×‹º1
 j
-java:S2095Š"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8™•Û…º1
-s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8™•Û…º1
-v	java:S116"URename this field "start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘™ãøÿÿÿÿ8™•Û…º1
-t	java:S116"SRename this field "end_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë÷ªøÿÿÿÿ8™•Û…º1
-G	java:S1063"+Replace this use of System.out by a logger.(îª±•8¢•Û…º1
-j	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8¦•Û…º1
-i	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8¦•Û…º1
-j	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§°Õì8§•Û…º1
-j	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğĞ¿Ì8§•Û…º1
-j	java:S100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ˜¡8¨•Û…º1
-o	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¼à÷ùÿÿÿÿ8¨•Û…º1
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8†š×‹º1
+i
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8†š×‹º1
+j
+java:S2095Š"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ó¡ô‹º1
+s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8‡š×‹º1
+v	java:S116"URename this field "start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘™ãøÿÿÿÿ8ˆš×‹º1
+t	java:S116"SRename this field "end_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë÷ªøÿÿÿÿ8ˆš×‹º1
+G	java:S1063"+Replace this use of System.out by a logger.(îª±•8•š×‹º1
+j	java:S100f"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8š×‹º1
+i	java:S100j"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8š×‹º1
+j	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§°Õì8Ÿš×‹º1
+j	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğĞ¿Ì8 š×‹º1
+j	java:S100v"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÚ˜¡8¡š×‹º1
+o	java:S100z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¼à÷ùÿÿÿÿ8¡š×‹º1

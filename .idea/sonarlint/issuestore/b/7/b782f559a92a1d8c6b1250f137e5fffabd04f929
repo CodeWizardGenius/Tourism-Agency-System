@@ -1,25 +1,27 @@
 
 o
-java:S1192"MDefine a constant instead of duplicating this literal "INSERT INTO " 3 times.(õ…®Šúÿÿÿÿ8ƒåùû¹1
+java:S1192"MDefine a constant instead of duplicating this literal "INSERT INTO " 4 times.(õ…®Šúÿÿÿÿ8İˆ¿‹º1
 l
-java:S1192"ODefine a constant instead of duplicating this literal "SELECT * FROM " 6 times.(«üÇø8ßÊØú¹1
+java:S1192"ODefine a constant instead of duplicating this literal "SELECT * FROM " 6 times.(«üÇø8İˆ¿‹º1
 o
-java:S1192"MDefine a constant instead of duplicating this literal " WHERE id = " 3 times.(¨ÂÂ¢øÿÿÿÿ8àÊØú¹1
+java:S1192"MDefine a constant instead of duplicating this literal " WHERE id = " 3 times.(¨ÂÂ¢øÿÿÿÿ8İˆ¿‹º1
 e
-java:S1192"HDefine a constant instead of duplicating this literal " WHERE " 3 times.(ı€†œ8Ñ¥Ü…º1
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ïW8áÊØú¹1
-Y	java:S107,"=Method has 12 parameters, which is greater than 7 authorized.(ÉÄ—æ8•åùû¹1
+java:S1192"HDefine a constant instead of duplicating this literal " WHERE " 3 times.(ı€†œ8İˆ¿‹º1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ïW8ßˆ¿‹º1
+Y	java:S107,"=Method has 12 parameters, which is greater than 7 authorized.(ÉÄ—æ8çˆ¿‹º1
+^	java:S1075"=Method has 12 parameters, which is greater than 7 authorized.(Ì¶Úşÿÿÿÿ8èˆ¿‹º1
 W
-java:S1118":Add a private constructor to hide the implicit public one.(‘ÜÃ©8íÊØú¹1
+java:S1118":Add a private constructor to hide the implicit public one.(‘ÜÃ©8èˆ¿‹º1
 j	java:S100
-"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†öĞ–8ïÊØú¹1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–±š‹şÿÿÿÿ8ğÊØú¹1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·³èğùÿÿÿÿ8òÊØú¹1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÈ˜­øÿÿÿÿ8òÊØú¹1
-j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÊœÔ8óÊØú¹1
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÃ¶íıÿÿÿÿ8œåùû¹1
-j	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏùÏÌ8åùû¹1
-o	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÛù–ıÿÿÿÿ8åùû¹1
-j	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àğÎî8åùû¹1
-j	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÄ—æ8åùû¹1
-j	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÂŠ¼8¡ìÛ…º1
+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†öĞ–8ëˆ¿‹º1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–±š‹şÿÿÿÿ8íˆ¿‹º1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·³èğùÿÿÿÿ8ğˆ¿‹º1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºÈ˜­øÿÿÿÿ8ğˆ¿‹º1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÊœÔ8ñˆ¿‹º1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÃ¶íıÿÿÿÿ8ñˆ¿‹º1
+j	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏùÏÌ8òˆ¿‹º1
+o	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÛù–ıÿÿÿÿ8òˆ¿‹º1
+j	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àğÎî8òˆ¿‹º1
+j	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÄ—æ8óˆ¿‹º1
+j	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÂŠ¼8óˆ¿‹º1
+o	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¶Úşÿÿÿÿ8ôˆ¿‹º1
