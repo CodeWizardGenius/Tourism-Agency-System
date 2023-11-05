@@ -442,7 +442,7 @@ public class EmployeeGUI extends JFrame {
                         {
                             int i = 0;
                             row_season_list[i++] = obj.getId ();
-                            row_season_list[i++] = obj.getHotel ().getName ();
+                            row_season_list[i++] = obj.getHotel ().getName();
                             row_season_list[i++] = obj.getName ();
                             row_season_list[i++] = obj.getStart_date ();
                             row_season_list[i++] = obj.getEnd_date ();

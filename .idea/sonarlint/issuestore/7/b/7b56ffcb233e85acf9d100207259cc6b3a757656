@@ -17,9 +17,9 @@ s	java:S117Ê"QRename this local variable to match the regular expression '^[a
 s	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàØêÿÿÿÿÿ8¥ÅÖú¹1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8§ÅÖú¹1
 i
-java:S2095="GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8¶ÅÖú¹1
+java:S2095r"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8©Šâû¹1
 i
-java:S2095r"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8¶ÅÖú¹1
+java:S2095="GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8¶ÅÖú¹1
 s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8¶ÅÖú¹1
 w	java:S116"VRename this field "lodgings_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÏ±²şÿÿÿÿ8¶ÅÖú¹1
 p	java:S116"TRename this field "season_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‡˜î8·ÅÖú¹1

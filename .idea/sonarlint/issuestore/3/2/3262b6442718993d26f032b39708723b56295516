@@ -12,11 +12,9 @@ r	java:S1178"QRename this local variable to match the regular expression '^[a-
 l	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8Ÿ¸¦ú¹1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8£¸¦ú¹1
 i
-java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
-i
-java:S2095\"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8È¸¦ú¹1
-i
 java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
+i
+java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
 i
 java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8‹¹¦ú¹1
 i
