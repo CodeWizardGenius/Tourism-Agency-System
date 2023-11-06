@@ -150,23 +150,26 @@ public class Season {
         }
         return season;
     }
-    public static Season getFetch(String otel_id) {
-        String query = "SELECT * FROM season WHERE otel_id = " + otel_id;
+    public static ArrayList<Season> getFetch(String seasonName) {
+       String query = "SELECT * FROM season WHERE name = '" + seasonName + "'";
         Season season = null;
+        ArrayList<Season> seasonArrayList = new ArrayList<>();
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(query);
-            resultSet.next();
-            season = new Season(
-                    resultSet.getInt("id"),
-                    resultSet.getInt("otel_id"),
-                    resultSet.getString("start_date"),
-                    resultSet.getString("end_date"),
-                    resultSet.getString("name")
-            );
+          while (resultSet.next()) {
+                season = new Season(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("start_date"),
+                        resultSet.getString("end_date"),
+                        resultSet.getString("name")
+                );
+                seasonArrayList.add(season);
+            }
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        return season;
+        return seasonArrayList;
     }
 }

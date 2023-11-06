@@ -57,7 +57,7 @@ public class Room {
     }
 
     public static boolean add(int id, int id1, int id2, String text, String string, String text1, String text2, String text3, String string1, String text4, String text5) {
-        String query = "INSERT INTO `room` (`id`, `otel_id`, `lodgings_id`, `season_id`, `features`, `name`, `stock`, `bed_number`, `sqr_meter`, `price_adult`, `price_child`) VALUES ('"+id+"', '"+id1+"', '"+id2+"', '"+text+"', '"+string+"', '"+text1+"', '"+text2+"', '"+text3+"', '"+string1+"', '"+text4+"', '"+text5+"')";
+        String query = "INSERT INTO `room` (`id`, `otel_id`, `lodgings_id`, `season_id`,  `name`, `stock`, `bed_number`, `sqr_meter`,`room_type`,`features`, `price_adult`, `price_child`) VALUES (NULL, '"+id+"', '"+id1+"', '"+id2+"', '"+text+"', '"+string+"', '"+text1+"', '"+text2+"', '"+text3+"', '"+string1+"', '"+text4+"', '"+text5+"')";
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             statement.executeUpdate(query);

@@ -15,13 +15,13 @@ m	java:S117I"QRename this local variable to match the regular expression '^[a-
 m	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÌ€­8·à‹º1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8¹à‹º1
 i
-java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
-i
 java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
-i
-java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
 i
 java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
 i
 java:S2095p"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
+i
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
+i
+java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Ùà‹º1
 b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8Üà‹º1
