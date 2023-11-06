@@ -5,6 +5,8 @@ j
 java:S1192"HDefine a constant instead of duplicating this literal "otel_id" 4 times.(¬™ü®ûÿÿÿÿ8¸¦ú¹1
 ’
 java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(£ËÊãøÿÿÿÿ8Ÿ¸¦ú¹1
+
+java:S1319W"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(„Øÿ8ÅÈÆ°º1
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ô¶şÿÿÿÿ8Ÿ¸¦ú¹1
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ËÊãøÿÿÿÿ8Ÿ¸¦ú¹1
 m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²úØ8Ÿ¸¦ú¹1
@@ -12,13 +14,15 @@ r	java:S1178"QRename this local variable to match the regular expression '^[a-
 l	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8Ÿ¸¦ú¹1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8£¸¦ú¹1
 i
+java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8®°¨°º1
+i
 java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
 i
-java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Œ¹¦ú¹1
-i
-java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8‹¹¦ú¹1
+java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ØÎ¼°º1
 i
 java:S2095H"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8…Ÿ¶ú¹1
+i
+java:S2095\"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8˜£ª°º1
 s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8¹¦ú¹1
 j	java:S100u"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûêĞ8Æ¹¦ú¹1
 i	java:S100y"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¬³'8Æ¹¦ú¹1

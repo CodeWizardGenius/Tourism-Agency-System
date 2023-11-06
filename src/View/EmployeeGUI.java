@@ -77,7 +77,7 @@ public class EmployeeGUI extends JFrame {
     private JTable tbl_season_list;
     private JTextField fld_season_id;
     private JButton btn_season_delete;
-    private JTextField textField1;
+    private JTextField fld_;
     private JTextField textField2;
     private JTextField textField3;
     private JTable table1;
@@ -286,23 +286,43 @@ public class EmployeeGUI extends JFrame {
             if (isEmpty(fld_room_no) || isEmpty(fld_room_area) || isEmpty(fld_room_stock) || isEmpty(fld_room_adult_price) || isEmpty(fld_room_child_price) || cmb_room_otel_name.getSelectedIndex() == -1 || cmb_room_lodging_name.getSelectedIndex() == -1 || cmb_room_season_name.getSelectedIndex() == -1 || cbm_room_name.getSelectedIndex() == -1 || cmb_room_type.getSelectedIndex() == -1 || isEmpty(fld_room_features)) {
                 JOptionPane.showMessageDialog(null, "Lütfen tüm alanları doldurunuz!");
             } else {
-                if (Room.add(
-                        hotels.get(cmb_room_otel_name.getSelectedIndex()).getId(),
-                        cmb_room_lodging_name.getSelectedItem().toString(),
-                        cmb_room_season_name.getSelectedItem().toString(),
-                        cbm_room_name.getSelectedItem().toString(),
-                        cmb_room_type.getSelectedItem().toString(),
-                        fld_room_no.getText(),
-                        fld_room_features.getText(),
-                        fld_room_area.getText(),
-                        fld_room_stock.getText(),
-                        fld_room_adult_price.getText(),
-                        fld_room_child_price.getText()
-                )) {
-                    JOptionPane.showMessageDialog(null, "Oda eklendi!", "Bilgi", 1);
-                } else {
-                    JOptionPane.showMessageDialog(null, "Oda eklenemedi!", "Hata", 0);
+                String selectedHotelName = cmb_room_otel_name.getSelectedItem().toString();
+                String selectedLodgingName = cmb_room_lodging_name.getSelectedItem().toString();
+                String selectedSeasonName = cmb_room_season_name.getSelectedItem().toString();
+
+                Hotel hotel = Hotel.getFetch(selectedHotelName);
+                Lodgings lodging = Lodgings.getFetch(selectedLodgingName).stream()
+                        .filter(l -> l.getOtel_id() == hotel.getId())
+                        .findFirst()
+                        .orElse(null);
+                Season season = Season.getFetch(selectedSeasonName).stream()
+                        .filter(s -> s.getOtel_id() == hotel.getId())
+                        .findFirst()
+                        .orElse(null);
+                if (hotel != null && lodging != null && season != null) {
+                    int hotel_id = hotel.getId();
+                    int lodgings_id = lodging.getId();
+                    int season_id = season.getId();
+
+                    if (Room.add(
+                            hotel_id, //otel
+                            lodgings_id, //pansiyon
+                            season_id, //sezon
+                            cbm_room_name.getSelectedItem().toString(), //Oda Adi (Tek, Çift, Aile)
+                            fld_room_stock.getText(), //Stok
+                            fld_room_no.getText(), //Oda No
+                            fld_room_area.getText(), //Metre Kare
+                            cmb_room_type.getSelectedItem().toString(),//Oda Tipi
+                            fld_room_features.getText(),//Oda Özellikleri
+                            fld_room_adult_price.getText(),//Yetişkin Fiyatı
+                            fld_room_child_price.getText() //Çocuk Fiyatı
+                    )){
+                        JOptionPane.showMessageDialog(null, "Oda eklendi!", "Bilgi", 1);
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Oda eklenemedi!", "Hata", 0);
+                    }
                 }
+
                 loadRoomModel();
                 Helper.clearTextField(fld_room_no, fld_room_area, fld_room_stock, fld_room_adult_price, fld_room_child_price, fld_room_features);
             }

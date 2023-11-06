@@ -42,9 +42,10 @@ public class Room {
         this.sqr_meter = sqr_meter;
     }
 
-    public static boolean add(int id, String string, String string1, String string2, String string3, String text, String text1, String text2, String text3, String text4, String text5) {
-        String query = Contanct.INSERT_QUERY("room", id, string, string1, string2, string3, text, text1, text2, text3, text4, text5);
 
+
+    public static boolean delete(int i) {
+        String query = "DELETE FROM `room` WHERE `room`.`id` = "+i;
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             statement.executeUpdate(query);
@@ -55,8 +56,8 @@ public class Room {
         }
     }
 
-    public static boolean delete(int i) {
-        String query = "DELETE FROM `room` WHERE `room`.`id` = "+i;
+    public static boolean add(int id, int id1, int id2, String text, String string, String text1, String text2, String text3, String string1, String text4, String text5) {
+        String query = "INSERT INTO `room` (`id`, `otel_id`, `lodgings_id`, `season_id`,  `name`, `stock`, `bed_number`, `sqr_meter`,`room_type`,`features`, `price_adult`, `price_child`) VALUES (NULL, '"+id+"', '"+id1+"', '"+id2+"', '"+text+"', '"+string+"', '"+text1+"', '"+text2+"', '"+text3+"', '"+string1+"', '"+text4+"', '"+text5+"')";
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             statement.executeUpdate(query);

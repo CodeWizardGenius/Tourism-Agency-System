@@ -45,7 +45,13 @@ public class Contanct {
         return "INSERT INTO " + room + " ( `otel_id`, `lodgings_id`, `season_id`, `features`, `name`, `stock`, `bed_number`, `sqr_meter`, `price_adult`, `price_child`) VALUES ('" + id + "', '" + string + "', '" + string1 + "', '" + string2 + "', '" + string3 + "', '" + text + "', '" + text1 + "', '" + text2 + "', '" + text3 + "', '" + text4 + "', '" + text5 + "')";
     }
 
+
     public static String DELETE_QUERY_WHERE(String season, String otelId, int hotelId) {
         return "DELETE FROM " + season + " WHERE " + otelId + " = " + hotelId;
+    }
+
+    public static String INSERT_QUERY(String room, int id, int id1, int id2, String text, String string, String text1, String text2, String text3, String string1, String text4, String text5) {
+        return "INSERT INTO " + room + " ( `otel_id`, `lodgings_id`, `season_id`, `features`, `name`, `stock`, `bed_number`, `sqr_meter`, `price_adult`, `price_child`) VALUES ('" + id + "', '" + id1 + "', '" + id2 + "', '" + text + "', '" + string + "', '" + text1 + "', '" + text2 + "', '" + text3 + "', '" + string1 + "', '" + text4 + "', '" + text5 + "')";
+
     }
 }

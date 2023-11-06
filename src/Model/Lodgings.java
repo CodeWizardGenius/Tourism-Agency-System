@@ -84,8 +84,8 @@ public class Lodgings {
         }
         return lodgings;
     }
-    public static String getFetch(String lodgingsName) {
-        String query = Contanct.FETCH_QUERY("lodgings", "type", lodgingsName);
+    public static ArrayList<Lodgings> getFetch(String lodgingsType) {
+        String query = Contanct.FETCH_QUERY("lodgings", "type", lodgingsType);
         Lodgings lodgings = null;
         ArrayList<Lodgings> lodgingsArrayList = new ArrayList<>();
         try {
@@ -103,7 +103,7 @@ public class Lodgings {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return String.valueOf(lodgingsArrayList.get(0).getOtel_id());
+        return lodgingsArrayList;
     }
 
     public int getId() {
