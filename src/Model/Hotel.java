@@ -105,6 +105,7 @@ public class Hotel {
         }
         return hotel;
     }
+
     public static Hotel getFetch(String otel_name) {
         String query = "SELECT * FROM otel WHERE name = '" + otel_name + "'";
         Hotel hotel = null;
@@ -129,6 +130,43 @@ public class Hotel {
         }
         return hotel;
     }
+
+    public static ArrayList<Hotel> search(String search, String searchValue) {
+        String query = "";
+        if (searchValue.equals("Otel")) {
+            query = "SELECT * FROM otel WHERE name = '" + search + "'";
+        } else if (searchValue.equals("Sehir")) {
+            query = "SELECT * FROM otel WHERE city = '" + search + "'";
+        } else if (searchValue.equals("Bolge")) {
+            query = "SELECT * FROM otel WHERE region = '" + search + "'";
+        }
+
+        Hotel hotel = null;
+        ArrayList<Hotel> hotelArrayList = new ArrayList<>();
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                hotel = new Hotel(
+                        resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getString("region"),
+                        resultSet.getString("city"),
+                        resultSet.getString("address"),
+                        resultSet.getString("e-mail"),
+                        resultSet.getString("phone"),
+                        resultSet.getInt("star"),
+                        resultSet.getString("features")
+                );
+                hotelArrayList.add(hotel);
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return hotelArrayList;
+    }
+
+
 
 
     public int getId() {

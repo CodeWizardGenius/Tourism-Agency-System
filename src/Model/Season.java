@@ -83,6 +83,28 @@ public class Season {
         return false;
     }
 
+    public static ArrayList<Season> search(String start_date, String end_date) {
+        String query = "SELECT * FROM season WHERE start_date = '" + start_date + "' AND end_date = '" + end_date + "'";
+        ArrayList<Season> list = new ArrayList<>();
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                Season season = new Season(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("start_date"),
+                        resultSet.getString("end_date"),
+                        resultSet.getString("name")
+                );
+                list.add(season);
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return list;
+    }
+
     public String getName() {
         return name;
     }

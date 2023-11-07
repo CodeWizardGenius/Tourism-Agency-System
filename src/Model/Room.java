@@ -68,6 +68,35 @@ public class Room {
         }
     }
 
+    public static ArrayList<Room> search(String adult_price, String child_price) {
+        ArrayList<Room> roomArrayList = new ArrayList<>();
+        Room roomObject = null;
+        String query = "SELECT * FROM `room` WHERE `price_adult` = '"+adult_price+"' AND `price_child` = '"+child_price+"'";
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                roomObject = new Room(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getInt("lodgings_id"),
+                        resultSet.getInt("season_id"),
+                        resultSet.getString("features"),
+                        resultSet.getString("name"),
+                        resultSet.getInt("stock"),
+                        resultSet.getInt("bed_number"),
+                        resultSet.getInt("sqr_meter"),
+                        resultSet.getInt("price_adult"),
+                        resultSet.getInt("price_child")
+                );
+                roomArrayList.add(roomObject);
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return roomArrayList;
+    }
+
     public int getPrice_adult() {
         return price_adult;
     }

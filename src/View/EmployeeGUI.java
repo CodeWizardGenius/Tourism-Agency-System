@@ -27,6 +27,10 @@ enum RoomType {
     SINGLE, DOUBLE, TRIPLE, FAMILY, KING, DISABLED, JUNIOR, DUBLEX, SUIT
 }
 
+enum SearchMix {
+    Bolge, Sehir, Otel
+}
+
 public class EmployeeGUI extends JFrame {
     private JPanel wrapper;
     private JLabel lbl_title;
@@ -77,12 +81,14 @@ public class EmployeeGUI extends JFrame {
     private JTable tbl_season_list;
     private JTextField fld_season_id;
     private JButton btn_season_delete;
-    private JTextField fld_;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JTextField fld_search_mix_value;
+    private JTextField fld_search_room_start_date;
+    private JTextField fld_search_room_end_date;
     private JTable table1;
-    private JButton bulButton;
-    private JTextField textField4;
+    private JButton btn_search;
+    private JTextField fld_search_room_child_price;
+    private JTextField fld_search_room_adult_price_;
+    private JComboBox cmb_search_mix_list;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -103,22 +109,20 @@ public class EmployeeGUI extends JFrame {
     private Object[] row_season_list;
 
 
-
-    public EmployeeGUI (Employee employee)
-        {
-            this.employee = employee;
-            lbl_title.setText ("Personel Paneli");
-            add (wrapper);
-            setSize (1500 , 1000);
-            setTitle ("Employee Panel");
-            setLocationRelativeTo (null); //ekranda ortada açılması için
-            setDefaultCloseOperation (JFrame.DISPOSE_ON_CLOSE);
-            setResizable (true);
-            setVisible (true);
-            btn_exit.addActionListener (e -> {
-                dispose ();
-                new LoginGUI ();
-            });
+    public EmployeeGUI(Employee employee) {
+        this.employee = employee;
+        lbl_title.setText("Personel Paneli");
+        add(wrapper);
+        setSize(1500, 1000);
+        setTitle("Employee Panel");
+        setLocationRelativeTo(null); //ekranda ortada açılması için
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setResizable(true);
+        setVisible(true);
+        btn_exit.addActionListener(e -> {
+            dispose();
+            new LoginGUI();
+        });
 
 
         // Otel Paneli
@@ -175,7 +179,7 @@ public class EmployeeGUI extends JFrame {
                         if (Hotel.delete(Integer.parseInt(fld_otel_id.getText()))) {
                             // Otel silinince sezonları da sil
                             JOptionPane.showMessageDialog(null, "Otel silindi!", "Bilgi", 1);
-                        }else {
+                        } else {
                             JOptionPane.showMessageDialog(null, "Otel silinemedi!", "Hata", 0);
                         }
                     } else {
@@ -183,7 +187,7 @@ public class EmployeeGUI extends JFrame {
                             if (Hotel.delete(Integer.parseInt(fld_otel_id.getText()))) {
                                 // Otel silinince sezonları da sil
                                 JOptionPane.showMessageDialog(null, "Otel silindi!", "Bilgi", 1);
-                            }else {
+                            } else {
                                 JOptionPane.showMessageDialog(null, "Otel silinemedi!", "Hata", 0);
                             }
                         }
@@ -316,7 +320,7 @@ public class EmployeeGUI extends JFrame {
                             fld_room_features.getText(),//Oda Özellikleri
                             fld_room_adult_price.getText(),//Yetişkin Fiyatı
                             fld_room_child_price.getText() //Çocuk Fiyatı
-                    )){
+                    )) {
                         JOptionPane.showMessageDialog(null, "Oda eklendi!", "Bilgi", 1);
                     } else {
                         JOptionPane.showMessageDialog(null, "Oda eklenemedi!", "Hata", 0);
@@ -409,6 +413,43 @@ public class EmployeeGUI extends JFrame {
             }
 
         });
+
+        // Arama
+        cmb_search_mix_list.removeAllItems();
+        for (SearchMix searchMix : SearchMix.values()) {
+            cmb_search_mix_list.addItem(searchMix);
+        }
+
+        ArrayList<Room> searchRoom = new ArrayList<>();
+
+        btn_search.addActionListener(e -> {
+            String searchMix = cmb_search_mix_list.getSelectedItem().toString();
+            String searchMixValue = fld_search_mix_value.getText().toString();
+            String searchRoomStartDate = fld_search_room_start_date.getText().toString();
+            String searchRoomEndDate = fld_search_room_end_date.getText().toString();
+            String searchRoomAdultPrice = fld_search_room_adult_price_.getText().toString();
+            String searchRoomChildPrice = fld_search_room_child_price.getText().toString();
+
+            if (!searchMixValue.isEmpty() && !searchRoomStartDate.isEmpty() && !searchRoomEndDate.isEmpty() && !searchRoomAdultPrice.isEmpty() && !searchRoomChildPrice.isEmpty()) {
+                ArrayList<Room> rooms = Room.search(searchRoomAdultPrice, searchRoomChildPrice);
+                rooms.stream().filter(room -> room.getSeason().getStart_date().equals(searchRoomStartDate) && room.getSeason().getEnd_date().equals(searchRoomEndDate)).forEach(room -> {
+                    if (searchMix.equals("Bolge")) {
+                        if (room.getHotel().getRegion().equals(searchMixValue)) {
+                            searchRoom.add(room);
+                        }
+                    } else if (searchMix.equals("Sehir")) {
+                        if (room.getHotel().getCity().equals(searchMixValue)) {
+                            searchRoom.add(room);
+                        }
+                    } else if (searchMix.equals("Otel")) {
+                        if (room.getHotel().getName().equals(searchMixValue)) {
+                            searchRoom.add(room);
+                        }
+                    }
+                });
+            }
+        });
+
     }
 
     private void loadComboxSeasonName() {
