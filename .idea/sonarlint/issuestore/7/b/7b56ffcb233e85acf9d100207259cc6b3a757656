@@ -20,14 +20,14 @@ s	java:S117Ä"QRename this local variable to match the regular expression '^[a
 s	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ş‰™úÿÿÿÿ8šïõ±º1
 s	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿàØêÿÿÿÿÿ8šïõ±º1
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8 ïõ±º1
-j
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Áïõ±º1
 i
-java:S2095L"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Áïõ±º1
+java:S20952"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8·’‰´º1
 i
 java:S2095>"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Áïõ±º1
 i
-java:S20952"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8·’‰´º1
+java:S2095L"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Áïõ±º1
+j
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Áïõ±º1
 s	java:S116"RRename this field "otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÑ¬êøÿÿÿÿ8Âïõ±º1
 w	java:S116"VRename this field "lodgings_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÏ±²şÿÿÿÿ8Âïõ±º1
 p	java:S116"TRename this field "season_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›‡˜î8Âïõ±º1

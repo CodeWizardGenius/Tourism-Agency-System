@@ -1,2 +1,16 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û¾Ïüÿÿÿÿ8áÀ‡»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8 áÀ‡»1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8»áÀ‡»1
+i
+java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8»áÀ‡»1
+i
+java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8»áÀ‡»1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ˆç‡»1
+L	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¾áÀ‡»1
+L	java:S106'"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ÀáÀ‡»1
+L	java:S1063"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ÂáÀ‡»1
+L	java:S106?"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8’ç‡»1

@@ -1,14 +1,32 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8½òéº¸1
-t	java:S116"SRename this field "btn_exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛŸÒıÿÿÿÿ8Æòéº¸1
-p	java:S116"TRename this field "lbl_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œí—¶8Æòéº¸1
+L
+java:S3740"/Provide the parametrized type for this generic.(Ì‡ğº8Éœê‡»1
+m	java:S1172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ‡—›8Îœê‡»1
+m	java:S117}"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¯Ä’8Îœê‡»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8Ğœê‡»1
+t	java:S116"SRename this field "btn_exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛŸÒıÿÿÿÿ8İœê‡»1
+p	java:S116"TRename this field "lbl_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œí—¶8İœê‡»1
+x	java:S116"WRename this field "fld_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´¹Œ€ùÿÿÿÿ8İœê‡»1
+s	java:S116"WRename this field "fld_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡éß¿8İœê‡»1
+t	java:S116"XRename this field "cmb_user_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‡ğº8İœê‡»1
+w	java:S116"[Rename this field "fld_name_surname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£Ğœ8İœê‡»1
+x	java:S116"WRename this field "btn_user_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬º¼†ıÿÿÿÿ8İœê‡»1
+s	java:S116"XRename this field "tbl_user_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÈÜy8İœê‡»1
+z	java:S116"^Rename this field "fld_delete_username" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó–ÍÕ8İœê‡»1
+{	java:S116"ZRename this field "btn_user_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·…—³ûÿÿÿÿ8İœê‡»1
+{	java:S116"ZRename this field "model_user_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“§ú±şÿÿÿÿ8İœê‡»1
+y	java:S116"XRename this field "row_user_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍéÓ¯üÿÿÿÿ8İœê‡»1
 D
-java:S1948"'Make "admin" transient or serializable.(Œ¦‘¢8Ûûøâ¸1
+java:S1948"'Make "admin" transient or serializable.(Œ¦‘¢8àœê‡»1
+Q
+java:S1948"/Make "row_user_list" transient or serializable.(ÍéÓ¯üÿÿÿÿ8àœê‡»1
+o
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(öİ¾Ü8áœê‡»1
 i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8Îòéº¸1
+java:S3252("LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8âœê‡»1
+o	java:S100g"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÄ¦öûÿÿÿÿ8êœê‡»1
 T
-java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8Š´øâ¸1
+java:S1128	"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8îœê‡»1
 W
-java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8Š´øâ¸1
-F
-java:S1068")Remove this unused "admin" private field.(Œ¦‘¢8ãûøâ¸1
+java:S1128
+":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8îœê‡»1
