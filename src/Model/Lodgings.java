@@ -2,6 +2,7 @@ package Model;
 
 import Helper.Contanct;
 import Helper.DBConnector;
+import Helper.Helper;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -43,6 +44,12 @@ public class Lodgings {
           String query = "INSERT INTO lodgings (otel_id, type) VALUES (" +
                  otel_id + ", '" +
                  feature + "')";
+
+          Lodgings lodgings = Lodgings.getFetchLodgins(otel_id,feature);
+          if (lodgings != null) {
+              Helper.showMessage("Bu özellik zaten ekli", "Hata", 2);
+              return false;
+          }
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             statement.executeUpdate(query);
@@ -51,6 +58,26 @@ public class Lodgings {
             e.printStackTrace();
             return false;
         }
+    }
+
+    private static Lodgings getFetchLodgins(String otelId, String feature) {
+        String query = "SELECT * FROM lodgings WHERE otel_id = " + otelId + " AND type = '" + feature + "'";
+        Lodgings lodgings = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.execute(query);
+            ResultSet resultSet = statement.getResultSet();
+            while (resultSet.next()) {
+                lodgings = new Lodgings(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("type")
+                );
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return lodgings;
     }
 
     public static boolean delete(int lodging_id) {

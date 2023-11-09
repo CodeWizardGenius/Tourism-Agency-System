@@ -2,6 +2,7 @@ package Model;
 
 import Helper.Contanct;
 import Helper.DBConnector;
+import Helper.Helper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -48,6 +49,12 @@ public class Season {
     }
 
     public static boolean add(int id, String string, String text, String text1) {
+        Season season = Season.getFetchSeason(id,text1);
+        if (season != null) {
+            Helper.showMessage("Bu sezon zaten ekli", "Hata", 2);
+            return false;
+        }
+
         System.out.println(id + " " + string + " " + text + " " + text1);
         String query = Contanct.INSERT_QUERY("season", id, string, text, text1);
         try {
@@ -58,6 +65,27 @@ public class Season {
             throwables.printStackTrace();
         }
         return false;
+    }
+
+    private static Season getFetchSeason(int otel_id,String season_name) {
+        String query = "SELECT * FROM season WHERE otel_id = '" + otel_id + "' AND name = '" + season_name + "'";
+        Season season = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                season = new Season(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getString("start_date"),
+                        resultSet.getString("end_date"),
+                        resultSet.getString("name")
+                );
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return season;
     }
 
     public static boolean delete(int i) {

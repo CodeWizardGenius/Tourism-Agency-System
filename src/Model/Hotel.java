@@ -61,6 +61,11 @@ public class Hotel {
 
     public static boolean add(String... data) {
         boolean isSuccess = false;
+        Hotel hotel = Hotel.getFetchOtel(data[4]);
+        if (hotel != null) {
+            Helper.Helper.showMessage("Bu otel zaten var", "Hata", 2);
+            return false;
+        }
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             isSuccess = statement.execute(Contanct.ADD_QUERY("otel", data));
@@ -68,6 +73,31 @@ public class Hotel {
             throwables.printStackTrace();
         }
         return isSuccess;
+    }
+
+    private static Hotel getFetchOtel(String email) {
+        String query = "SELECT * FROM otel WHERE e-mail = '" + email + "'";
+        Hotel hotel = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                hotel = new Hotel(
+                        resultSet.getInt("id"),
+                        resultSet.getString("name"),
+                        resultSet.getString("region"),
+                        resultSet.getString("city"),
+                        resultSet.getString("address"),
+                        resultSet.getString("e-mail"),
+                        resultSet.getString("phone"),
+                        resultSet.getInt("star"),
+                        resultSet.getString("features")
+                );
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return hotel;
     }
 
     public static boolean delete(int otel_id) {

@@ -2,6 +2,7 @@ package Model;
 
 import Helper.Contanct;
 import Helper.DBConnector;
+import Helper.Helper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -58,6 +59,11 @@ public class Room {
 
     public static boolean add(int id, int id1, int id2, String text, String string, String text1, String text2, String text3, String string1, String text4, String text5) {
         String query = "INSERT INTO `room` (`id`, `otel_id`, `lodgings_id`, `season_id`,  `name`, `stock`, `bed_number`, `sqr_meter`,`room_type`,`features`, `price_adult`, `price_child`) VALUES (NULL, '"+id+"', '"+id1+"', '"+id2+"', '"+text+"', '"+string+"', '"+text1+"', '"+text2+"', '"+text3+"', '"+string1+"', '"+text4+"', '"+text5+"')";
+        Room room = Room.getFetch(text1);
+        if (room != null) {
+            Helper.showMessage("Bu oda zaten ekli", "Hata", 2); // TODO: 10.11.2023
+            return false;
+        }
         try {
             Statement statement = DBConnector.getConnection().createStatement();
             statement.executeUpdate(query);
@@ -66,6 +72,33 @@ public class Room {
             throwables.printStackTrace();
             return false;
         }
+    }
+
+    private static Room getFetch(String text1) {
+        String query = "SELECT * FROM `room` WHERE `name` = '"+text1+"'";
+        Room room = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                room = new Room(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getInt("lodgings_id"),
+                        resultSet.getInt("season_id"),
+                        resultSet.getString("features"),
+                        resultSet.getString("name"),
+                        resultSet.getInt("stock"),
+                        resultSet.getInt("bed_number"),
+                        resultSet.getInt("sqr_meter"),
+                        resultSet.getInt("price_adult"),
+                        resultSet.getInt("price_child")
+                );
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return room;
     }
 
     public static ArrayList<Room> search(String adult_price, String child_price) {

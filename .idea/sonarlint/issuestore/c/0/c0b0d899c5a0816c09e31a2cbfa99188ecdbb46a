@@ -1,31 +1,33 @@
 
 k
-java:S11923"IDefine a constant instead of duplicating this literal "features" 4 times.(È‰Üåûÿÿÿÿ8ÑùÖ³º1
+java:S11923"IDefine a constant instead of duplicating this literal "features" 5 times.(È‰Üåûÿÿÿÿ8ŠÓ¬»1
 e
-java:S1192/"HDefine a constant instead of duplicating this literal "address" 4 times.(Õûâ¿8ÒùÖ³º1
+java:S1192/"HDefine a constant instead of duplicating this literal "address" 5 times.(Õûâ¿8‹Ó¬»1
 c
-java:S11921"FDefine a constant instead of duplicating this literal "phone" 4 times.(ÄÀØ8ÒùÖ³º1
+java:S11921"FDefine a constant instead of duplicating this literal "phone" 5 times.(ÄÀØ8‹Ó¬»1
 i
-java:S11920"GDefine a constant instead of duplicating this literal "e-mail" 4 times.(Ôëçüÿÿÿÿ8ÒùÖ³º1
+java:S11920"GDefine a constant instead of duplicating this literal "e-mail" 5 times.(Ôëçüÿÿÿÿ8‹Ó¬»1
 i
-java:S1192-"GDefine a constant instead of duplicating this literal "region" 4 times.(»€µËúÿÿÿÿ8ÒùÖ³º1
+java:S1192-"GDefine a constant instead of duplicating this literal "region" 5 times.(»€µËúÿÿÿÿ8‹Ó¬»1
 Œ
-java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤õœR8ÒùÖ³º1
+java:S1319#"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤õœR8‹Ó¬»1
 “
-java:S1319†"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÔŸ³„şÿÿÿÿ8ÒùÖ³º1
-m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢şî8ÒùÖ³º1
-m	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÌ€­8ÒùÖ³º1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ÔùÖ³º1
+java:S1319¤"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÔŸ³„şÿÿÿÿ8ŒÓ¬»1
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¢şî8ŒÓ¬»1
+n	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÌ€­8ŒÓ¬»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8Ó¬»1
+i
+java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÄÓ¬»1
 j
-java:S2095“"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8æ²Ø³º1
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÄÓ¬»1
+j
+java:S2095±"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÄÓ¬»1
 i
-java:S2095q"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8íùÖ³º1
+java:S2095R"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÄÓ¬»1
 i
-java:S2095A"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8îùÖ³º1
+java:S2095v"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ÄÓ¬»1
 i
-java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8 °å³º1
+java:S2095F"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8´¯ ¬»1
 i
-java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8íùÖ³º1
-i
-java:S2095'"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8íùÖ³º1
-b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8ğùÖ³º1
+java:S2095i"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8´¯ ¬»1
+b	java:S107"AConstructor has 9 parameters, which is greater than 7 authorized.(âŒ¢µÿÿÿÿÿ8ÇÓ¬»1

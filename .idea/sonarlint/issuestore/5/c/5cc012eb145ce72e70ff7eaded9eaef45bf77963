@@ -1,16 +1,19 @@
 
 ’
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û¾Ïüÿÿÿÿ8áÀ‡»1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8 áÀ‡»1
+java:S13190"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Û¾Ïüÿÿÿÿ8ÃÁ¬»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ÅÁ¬»1
 i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8»áÀ‡»1
+java:S2095I"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8îÁ¬»1
 i
-java:S2095/"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8»áÀ‡»1
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8íÁ¬»1
 i
-java:S2095;"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8»áÀ‡»1
+java:S2095U"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8îÁ¬»1
 i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8ˆç‡»1
-L	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¾áÀ‡»1
-L	java:S106'"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ÀáÀ‡»1
-L	java:S1063"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ÂáÀ‡»1
-L	java:S106?"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8’ç‡»1
+java:S2095 "GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Æ•¬»1
+i
+java:S20954"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8Æ•¬»1
+L	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ôÁ¬»1
+L	java:S106+"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8úÁ¬»1
+L	java:S106A"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8üÁ¬»1
+L	java:S106M"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8şÁ¬»1
+L	java:S106Y"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8ºÆ•¬»1
