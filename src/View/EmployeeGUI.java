@@ -84,7 +84,7 @@ public class EmployeeGUI extends JFrame {
     private JTextField fld_search_mix_value;
     private JTextField fld_search_room_start_date;
     private JTextField fld_search_room_end_date;
-    private JTable table1;
+    private JTable tbl_search_room_list;
     private JButton btn_search;
     private JTextField fld_search_room_child_price;
     private JTextField fld_search_room_adult_price_;
@@ -107,6 +107,8 @@ public class EmployeeGUI extends JFrame {
     private ArrayList<Hotel> hotels;
     private DefaultTableModel model_season_list;
     private Object[] row_season_list;
+    private DefaultTableModel model_room_search_list;
+    private Object[] row_room_search_list;
 
 
     public EmployeeGUI(Employee employee) {
@@ -265,7 +267,7 @@ public class EmployeeGUI extends JFrame {
         // Oda Paneli
 
         model_room_list = new DefaultTableModel();
-        Object[] col_room_list = {"ID", "Otel Adı", "Pansiyon Turu", "Donem Adi", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"};
+        Object[] col_room_list = {"ID", "Otel Adı", "Pansiyon Turu", "Donem Adi", "Oda Adı", "Oda Özellikleri", "Oda No", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"};
         model_room_list.setColumnIdentifiers(col_room_list);
         row_room_list = new Object[col_room_list.length];
         tbl_room_list_new.setModel(model_room_list);
@@ -419,7 +421,6 @@ public class EmployeeGUI extends JFrame {
         for (SearchMix searchMix : SearchMix.values()) {
             cmb_search_mix_list.addItem(searchMix);
         }
-
         ArrayList<Room> searchRoom = new ArrayList<>();
 
         btn_search.addActionListener(e -> {
@@ -446,10 +447,56 @@ public class EmployeeGUI extends JFrame {
                             searchRoom.add(room);
                         }
                     }
+
                 });
             }
-        });
 
+            if (searchRoom.size() > 0) {
+                Helper.clearTextField(fld_search_mix_value, fld_search_room_start_date, fld_search_room_end_date, fld_search_room_adult_price_, fld_search_room_child_price);
+                loadRoomSearchModel(searchRoom);
+            } else {
+                Helper.showMessage("Arama sonucu bulunamadı!", "UYARI", 1);
+            }
+        });
+        model_room_search_list = new DefaultTableModel(){
+          public boolean isCellEditable(int row, int column){
+              if (column == 0){
+                  return false;
+              }
+              return super.isCellEditable(row, column);
+          }
+        };
+        Object[] col_room_search_list_new = {"ID", "Otel Adı", "Pansiyon Turu", "Donem Adi", "Oda Adı", "Oda Özellikleri", "Oda No", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"};
+
+        model_room_search_list.setColumnIdentifiers(col_room_search_list_new);
+        row_room_search_list = new Object[col_room_search_list_new.length];
+        tbl_search_room_list.setModel(model_room_search_list);
+
+    }
+
+    private void loadRoomSearchModel(ArrayList<Room> searchRoom) {
+        DefaultTableModel model_room_clear = (DefaultTableModel) tbl_search_room_list.getModel();
+        model_room_clear.setRowCount(0);
+        //"ID", "Otel Adı", "Pansiyon Turu","Donem Adi", "Oda Adı", "Oda Özellikleri", "Yatak Sayısı", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"
+        ArrayList<Room> roomArrayList = Room.getList();
+        if (!roomArrayList.isEmpty()) {
+            for (Room obj : searchRoom) {
+                int i = 0;
+                row_room_search_list[i++] = obj.getId();
+                row_room_search_list[i++] = obj.getHotel().getName();
+                row_room_search_list[i++] = obj.getLodgings().getType();
+                row_room_search_list[i++] = obj.getSeason().getName();
+                row_room_search_list[i++] = obj.getName();
+                row_room_search_list[i++] = obj.getFeatures();
+                row_room_search_list[i++] = obj.getBed_number();
+                row_room_search_list[i++] = obj.getSqr_meter();
+                row_room_search_list[i++] = obj.getStock();
+                row_room_search_list[i++] = obj.getPrice_adult() + " TL";
+                row_room_search_list[i++] = obj.getPrice_child() + " TL";
+                model_room_clear.addRow(row_room_search_list);
+            }
+
+        }
     }
 
     private void loadComboxSeasonName() {

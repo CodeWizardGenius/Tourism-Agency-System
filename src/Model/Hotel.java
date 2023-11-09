@@ -76,7 +76,7 @@ public class Hotel {
     }
 
     private static Hotel getFetchOtel(String email) {
-        String query = "SELECT * FROM otel WHERE e-mail = '" + email + "'";
+        String query = "SELECT * FROM otel WHERE `e-mail` = '" + email + "'";
         Hotel hotel = null;
         try {
             Statement statement = DBConnector.getConnection().createStatement();

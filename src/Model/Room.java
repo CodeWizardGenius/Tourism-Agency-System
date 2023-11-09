@@ -59,7 +59,7 @@ public class Room {
 
     public static boolean add(int id, int id1, int id2, String text, String string, String text1, String text2, String text3, String string1, String text4, String text5) {
         String query = "INSERT INTO `room` (`id`, `otel_id`, `lodgings_id`, `season_id`,  `name`, `stock`, `bed_number`, `sqr_meter`,`room_type`,`features`, `price_adult`, `price_child`) VALUES (NULL, '"+id+"', '"+id1+"', '"+id2+"', '"+text+"', '"+string+"', '"+text1+"', '"+text2+"', '"+text3+"', '"+string1+"', '"+text4+"', '"+text5+"')";
-        Room room = Room.getFetch(text1);
+        Room room = Room.getFetch(String.valueOf(id),text1);
         if (room != null) {
             Helper.showMessage("Bu oda zaten ekli", "Hata", 2); // TODO: 10.11.2023
             return false;
@@ -74,8 +74,8 @@ public class Room {
         }
     }
 
-    private static Room getFetch(String text1) {
-        String query = "SELECT * FROM `room` WHERE `name` = '"+text1+"'";
+    private static Room getFetch(String otel_id, String bed_number) {
+        String query = "SELECT * FROM room WHERE `otel_id` = '" + otel_id + "' AND `bed_number` = '" + bed_number + "'";
         Room room = null;
         try {
             Statement statement = DBConnector.getConnection().createStatement();
