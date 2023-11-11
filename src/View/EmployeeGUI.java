@@ -5,8 +5,6 @@ import Model.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 import static Helper.Helper.isEmpty;
@@ -461,20 +459,20 @@ public class EmployeeGUI extends JFrame {
                 Helper.showMessage("Arama sonucu bulunamadı!", "UYARI", 1);
             }
         });
-        model_room_search_list = new DefaultTableModel() {
+        // Initialize the table model
+        DefaultTableModel model_room_search_list = new DefaultTableModel() {
             public boolean isCellEditable(int row, int column) {
-                if (column == 0) {
-                    return false;
-                }
-                return super.isCellEditable(row, column);
+                return false;  // Assuming you don't want cells to be editable
             }
         };
         Object[] col_room_search_list_new = {"ID", "Otel Adı", "Pansiyon Turu", "Donem Adi", "Oda Adı", "Oda Özellikleri", "Oda No", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"};
-
         model_room_search_list.setColumnIdentifiers(col_room_search_list_new);
         row_room_search_list = new Object[col_room_search_list_new.length];
+        // Set the model for the table
         tbl_search_room_list.setModel(model_room_search_list);
 
+
+        //Rezervasyon Ekrani Ac
         btn_reservation_open.addActionListener(e -> {
             if (tbl_search_room_list.getSelectedRow() != -1) {
                 int selectedRow = tbl_search_room_list.getSelectedRow();

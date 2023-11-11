@@ -36,8 +36,9 @@ public class Lodgings {
             }
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            return lodgingsArrayList;
         }
-        return lodgingsArrayList;
     }
 
     public static boolean add(String otel_id, String feature) {

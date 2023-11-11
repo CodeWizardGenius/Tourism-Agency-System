@@ -1,25 +1,32 @@
 
-r	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Èè•ÿÿÿÿÿ8ğş·ß»1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8ñş·ß»1
-{	java:S116"_Rename this field "tbl_reservation_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Áà«8™‰Âß»1
-~	java:S116"]Rename this field "fld_reservation_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜşÚÿÿÿÿÿ8øş·ß»1
-}	java:S116"aRename this field "btn_reservation_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‡ÕÚ8øş·ß»1
-w	java:S116"VRename this field "fld_room_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êØÈÀúÿÿÿÿ8¹÷ß»1
-y	java:S116"XRename this field "fld_user_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğƒàæúÿÿÿÿ8£ï÷ß»1
-	java:S116"^Rename this field "btn_reservation_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û³‰…úÿÿÿÿ8Î‡ôß»1
-z	java:S116"YRename this field "fld_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÓ™¿úÿÿÿÿ8€­ùß»1
-u	java:S116"ZRename this field "fld_finish_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¿Œ8Ïıß»1
-i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8ış·ß»1
-U
-java:S1068"8Remove this unused "tbl_reservation_list" private field.(€Áà«8£‰Âß»1
-Q
-java:S1068"/Remove this unused "fld_room_no" private field.(êØÈÀúÿÿÿÿ8À÷ß»1
+h
+java:S1192:"FDefine a constant instead of duplicating this literal "UYARI" 7 times.(¥¥ı€ÿÿÿÿÿ8ğƒ¼1
+r	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾™…¼ùÿÿÿÿ8ğƒ¼1
+r	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­÷»©şÿÿÿÿ8ñƒ¼1
+r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Èè•ÿÿÿÿÿ8ñƒ¼1
+m	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï›’‘8ñƒ¼1
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¯œòşÿÿÿÿ8ñƒ¼1
+m	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôö‹¥8ñƒ¼1
+r	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Û†ãùÿÿÿÿ8ñƒ¼1
+m	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óğ–…8ñƒ¼1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8õƒ¼1
+{	java:S116"_Rename this field "tbl_reservation_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Áà«8ıƒ¼1
+~	java:S116"]Rename this field "fld_reservation_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜşÚÿÿÿÿÿ8şƒ¼1
+}	java:S116"aRename this field "btn_reservation_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‡ÕÚ8€ƒ¼1
+w	java:S116"VRename this field "fld_room_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êØÈÀúÿÿÿÿ8€ƒ¼1
+y	java:S116"XRename this field "fld_user_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğƒàæúÿÿÿÿ8€ƒ¼1
+	java:S116"^Rename this field "btn_reservation_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û³‰…úÿÿÿÿ8€ƒ¼1
+z	java:S116"YRename this field "fld_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÓ™¿úÿÿÿÿ8€ƒ¼1
+u	java:S116"ZRename this field "fld_finish_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¿Œ8€ƒ¼1
+w	java:S116"[Rename this field "fld_days_numbers" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÎşÖ8€ƒ¼1
+}	java:S116"aRename this field "model_reservation_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†§·Ö8€ƒ¼1
+{	java:S116"_Rename this field "row_reservation_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š…î½8€ƒ¼1
 S
-java:S1068"1Remove this unused "fld_user_name" private field.(Ğƒàæúÿÿÿÿ8­ï÷ß»1
-Y
-java:S1068"7Remove this unused "btn_reservation_add" private field.(û³‰…úÿÿÿÿ8Õ‡ôß»1
-T
-java:S1068"2Remove this unused "fld_start_date" private field.(åÓ™¿úÿÿÿÿ8†­ùß»1
-O
-java:S1068"3Remove this unused "fld_finish_date" private field.(®¿Œ8”Ïıß»1
+java:S1948"6Make "row_reservation_list" transient or serializable.(Š…î½8ƒƒ¼1
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(Êîº¼øÿÿÿÿ8…ƒ¼1
+i
+java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8‡ƒ¼1
+G	java:S1061"+Replace this use of System.out by a logger.(ñ·¤¬8Œƒ¼1
+P
+java:S1481O".Remove this unused "user_name" local variable.(ß¯œòşÿÿÿÿ8ƒ¼1

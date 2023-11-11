@@ -156,6 +156,17 @@ public class Room {
         return roomArrayList;
     }
 
+    public static boolean update(int roomNo, int i) {
+        String query = "UPDATE `room` SET `stock` = '"+i+"' WHERE `room`.`id` = "+roomNo;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            statement.executeUpdate(query);
+            return true;
+        } catch (SQLException throwables) {
+            return false;
+        }
+    }
+
     public int getPrice_adult() {
         return price_adult;
     }

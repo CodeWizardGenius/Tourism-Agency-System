@@ -1,10 +1,26 @@
 
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8­ÌÉß»1
+’
+java:S1319c"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¸«öÀùÿÿÿÿ8ìä†ƒ¼1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àøÁ‡ÿÿÿÿÿ8íä†ƒ¼1
+r	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇö•şÿÿÿÿ8íä†ƒ¼1
+r	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇö•şÿÿÿÿ8íä†ƒ¼1
+r	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇö•şÿÿÿÿ8íä†ƒ¼1
+r	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇö•şÿÿÿÿ8íä†ƒ¼1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8ğä†ƒ¼1
 i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8³ÌÉß»1
+java:S2095h"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8å†ƒ¼1
 i
-java:S2095+"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8û•Íß»1
+java:S2095:"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8å†ƒ¼1
 i
-java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8³ÌÉß»1
+java:S2095*"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8å†ƒ¼1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8å†ƒ¼1
+q
+java:S2095S"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ïëáşüÿÿÿÿ8Ã÷†ƒ¼1
 V
-java:S3516"9Refactor this method to not always return the same value.(”áÚ¡8³ÌÉß»1
+java:S3516&"9Refactor this method to not always return the same value.(”áÚ¡8å†ƒ¼1
+r	java:S116"VRename this field "room_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­õœÈ8å†ƒ¼1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËŸ ¦øÿÿÿÿ8Ÿå†ƒ¼1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àøÁ‡ÿÿÿÿÿ8Ÿå†ƒ¼1
+H
+java:S1168x"+Return an empty collection instead of null.(¥¹ï8²å†ƒ¼1
