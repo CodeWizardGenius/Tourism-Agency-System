@@ -1,7 +1,16 @@
 ﻿# Tourism-Agency-System
-create table tourism_agency
-(
-create table features
+
+
+## Installation
+    Java 11 or higher version is required to run.
+    Maven 3.6.3 or higher version is required to run.
+    Mysql 8.0.23 or higher version is required to run.
+
+
+
+## Installation Sql
+``` sql
+( create table features
 (
 id   int auto_increment
 primary key,
@@ -67,4 +76,18 @@ password varchar(255)               not null,
 type     enum ('admin', 'employee') not null,
 name     varchar(255)               not null
 );
-
+```
+## Project Description
+    Iki farkli kullanicinin bulundugu bir turizm acentesi sistemi. 
+    Birinci kullanicinin admin yetkisi vardir.
+    Bu kullanicilar otel, oda, pansiyon, sezon ve ozelliklerini ekleyebilir, duzenleyebilir ve silebilir. Ikinci kullanicilar ise bu verileri goruntuleyebilir ve rezervasyon yapabilirler.
+    
+    admin kullanici adi: a`
+    admin sifre: a`
+    employee kullanici adi: t`
+    employee sifre: t`
+    
+    Iki ana sayfa bulunmaktadir. 
+    Birincisi admin sayfasidir.Bu sayfada admin kullanicisi kullanici olusturma ve duzenleme islemlerini yapabilir. Ayni zamanda admin kullanicisi
+    Ikinci sayfa ise employee sayfasidir. Otel, oda, pansiyon, sezon ve ozelliklerini ekleyebilir, duzenleyebilir ve silebilir. 
+    Bu sayfada employee kullanicisi otel, oda, pansiyon, sezon ve ozelliklerini goruntuleyebilir ve rezervasyon yapabilirler.
