@@ -91,3 +91,11 @@ name     varchar(255)               not null
     Birincisi admin sayfasidir.Bu sayfada admin kullanicisi kullanici olusturma ve duzenleme islemlerini yapabilir. Ayni zamanda admin kullanicisi
     Ikinci sayfa ise employee sayfasidir. Otel, oda, pansiyon, sezon ve ozelliklerini ekleyebilir, duzenleyebilir ve silebilir. 
     Bu sayfada employee kullanicisi otel, oda, pansiyon, sezon ve ozelliklerini goruntuleyebilir ve rezervasyon yapabilirler.
+
+
+## Project Images
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
