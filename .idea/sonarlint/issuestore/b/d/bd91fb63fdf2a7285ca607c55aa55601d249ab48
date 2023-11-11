@@ -1,4 +1,10 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(–ÿÝøýÿÿÿÿ8ß€÷Þ»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(á–Ì“8­ÌÉß»1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8³ÌÉß»1
+i
+java:S2095+"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8û•Íß»1
+i
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ï‘ÔÏüÿÿÿÿ8³ÌÉß»1
+V
+java:S3516"9Refactor this method to not always return the same value.(”áÚ¡8³ÌÉß»1
