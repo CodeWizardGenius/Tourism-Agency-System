@@ -2,6 +2,10 @@
 
 ## Profect Information Video
 [![Watch the video](https://img.youtube.com/vi/9QZQ4Z3Z8Zo/maxresdefault.jpg)](https://www.youtube.com/watch?v=lxHag4FNKws)
+   
+  Odama Arama Sayfası da arama kismi kolaylastirmak icin Arama
+  parametreleri bu dosyadadir [OdaAramaDatalari .txt](OdaAramaDatalari%20.txt)
+   
 ## Installation
     Java 11 or higher version is required to run.
     Maven 3.6.3 or higher version is required to run.
