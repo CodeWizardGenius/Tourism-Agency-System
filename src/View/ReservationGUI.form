@@ -82,7 +82,9 @@
                     <preferred-size width="150" height="-1"/>
                   </grid>
                 </constraints>
-                <properties/>
+                <properties>
+                  <enabled value="false"/>
+                </properties>
               </component>
               <component id="153c5" class="javax.swing.JButton" binding="btn_reservation_delete">
                 <constraints>
