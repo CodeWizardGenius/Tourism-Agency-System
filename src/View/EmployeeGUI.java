@@ -5,6 +5,8 @@ import Model.*;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 import static Helper.Helper.isEmpty;
@@ -89,6 +91,7 @@ public class EmployeeGUI extends JFrame {
     private JTextField fld_search_room_child_price;
     private JTextField fld_search_room_adult_price_;
     private JComboBox cmb_search_mix_list;
+    private JButton btn_reservation_open;
 
     private DefaultTableModel model_otel_list;
     private Object[] row_hotel_list;
@@ -458,13 +461,13 @@ public class EmployeeGUI extends JFrame {
                 Helper.showMessage("Arama sonucu bulunamadı!", "UYARI", 1);
             }
         });
-        model_room_search_list = new DefaultTableModel(){
-          public boolean isCellEditable(int row, int column){
-              if (column == 0){
-                  return false;
-              }
-              return super.isCellEditable(row, column);
-          }
+        model_room_search_list = new DefaultTableModel() {
+            public boolean isCellEditable(int row, int column) {
+                if (column == 0) {
+                    return false;
+                }
+                return super.isCellEditable(row, column);
+            }
         };
         Object[] col_room_search_list_new = {"ID", "Otel Adı", "Pansiyon Turu", "Donem Adi", "Oda Adı", "Oda Özellikleri", "Oda No", "Metre Kare", "Stok", "Yetişkin Fiyatı", "Çocuk Fiyatı"};
 
@@ -472,6 +475,17 @@ public class EmployeeGUI extends JFrame {
         row_room_search_list = new Object[col_room_search_list_new.length];
         tbl_search_room_list.setModel(model_room_search_list);
 
+        btn_reservation_open.addActionListener(e -> {
+            if (tbl_search_room_list.getSelectedRow() != -1) {
+                int selectedRow = tbl_search_room_list.getSelectedRow();
+                String roomId = tbl_search_room_list.getValueAt(selectedRow, 0).toString();
+                Room room = Room.getFetch(roomId);
+                new ReservationGUI(room, employee);
+            } else {
+                Helper.showMessage("Lütfen bir oda seçiniz!", "UYARI", 1);
+            }
+
+        });
     }
 
     private void loadRoomSearchModel(ArrayList<Room> searchRoom) {

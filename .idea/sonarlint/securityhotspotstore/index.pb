@@ -43,11 +43,9 @@ M
 src/View/RoomFeaturesGUI.form,e\5\e5f0ee753f5e9231a5667450d1b3fdfb1fdb7691
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-B
-src/View/demo.form,3\6\36689d6c44c7928f79b0e6b8ff3e2e3dd8f0980b
-B
-src/View/demo.java,3\f\3fe18122f83a4d049caa1d0385910d224a89061b
 L
 src/View/ReservationGUI.form,8\5\8578cfd99402ce76e71d72748a30f30b56df3bf4
 L
 src/View/ReservationGUI.java,0\4\042356d3a8dda22eeaf15771a6166d213553b282
+J
+src/Model/Reservation.java,b\d\bd91fb63fdf2a7285ca607c55aa55601d249ab48

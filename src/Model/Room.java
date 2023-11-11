@@ -100,6 +100,32 @@ public class Room {
         }
         return room;
     }
+    public static Room getFetch(String room_id){
+        String query = "SELECT * FROM room WHERE `id` = '" + room_id + "'";
+        Room room = null;
+        try {
+            Statement statement = DBConnector.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                room = new Room(
+                        resultSet.getInt("id"),
+                        resultSet.getInt("otel_id"),
+                        resultSet.getInt("lodgings_id"),
+                        resultSet.getInt("season_id"),
+                        resultSet.getString("features"),
+                        resultSet.getString("name"),
+                        resultSet.getInt("stock"),
+                        resultSet.getInt("bed_number"),
+                        resultSet.getInt("sqr_meter"),
+                        resultSet.getInt("price_adult"),
+                        resultSet.getInt("price_child")
+                );
+            }
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return room;
+    }
 
     public static ArrayList<Room> search(String adult_price, String child_price) {
         ArrayList<Room> roomArrayList = new ArrayList<>();

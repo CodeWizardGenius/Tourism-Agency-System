@@ -1,4 +1,11 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ
-d
-java:S2094"BRemove this empty class, write its code or make it an "interface".(úöó‡ıÿÿÿÿ8—æÁ«»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8’ÂŞ»1
+~	java:S116"]Rename this field "fld_reservation_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜşÚÿÿÿÿÿ8ß¬Œß»1
+}	java:S116"aRename this field "btn_reservation_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‡ÕÚ8Óß»1
+L
+java:S1068
+"*Remove this unused "table1" private field.(’¸Ş¢ÿÿÿÿÿ8à©ùŞ»1
+X
+java:S1068"6Remove this unused "fld_reservation_id" private field.(ÜşÚÿÿÿÿÿ8â¬Œß»1
+W
+java:S1068":Remove this unused "btn_reservation_delete" private field.(×‡ÕÚ8Öß»1

@@ -1,211 +1,212 @@
 
 L
-java:S3740;"/Provide the parametrized type for this generic.(À³†8ÎÎş°»1
+java:S3740="/Provide the parametrized type for this generic.(À³†8üÌÌŞ»1
 Q
-java:S3740="/Provide the parametrized type for this generic.(ÔĞôşúÿÿÿÿ8ÏÎş°»1
+java:S3740?"/Provide the parametrized type for this generic.(ÔĞôşúÿÿÿÿ8ıÌÌŞ»1
 L
-java:S3740>"/Provide the parametrized type for this generic.(ò¦£8ÏÎş°»1
+java:S3740@"/Provide the parametrized type for this generic.(ò¦£8ıÌÌŞ»1
 Q
-java:S3740?"/Provide the parametrized type for this generic.(ŞÕşÿÿÿÿ8ÏÎş°»1
+java:S3740A"/Provide the parametrized type for this generic.(ŞÕşÿÿÿÿ8ıÌÌŞ»1
 L
-java:S3740@"/Provide the parametrized type for this generic.(ŸÂ¡½8ÏÎş°»1
+java:S3740B"/Provide the parametrized type for this generic.(ŸÂ¡½8ıÌÌŞ»1
 L
-java:S3740D"/Provide the parametrized type for this generic.(­˜Şÿ8ÏÎş°»1
+java:S3740F"/Provide the parametrized type for this generic.(­˜Şÿ8ıÌÌŞ»1
 L
-java:S3740M"/Provide the parametrized type for this generic.( à ã8ÏÎş°»1
+java:S3740O"/Provide the parametrized type for this generic.( à ã8ıÌÌŞ»1
 Q
-java:S3740["/Provide the parametrized type for this generic.(¾êØ‡øÿÿÿÿ8ÏÎş°»1
-d
-java:S1192³"FDefine a constant instead of duplicating this literal "UYARI" 9 times.(„Ö–˜8ÖÎş°»1
+java:S3740]"/Provide the parametrized type for this generic.(¾êØ‡øÿÿÿÿ8ıÌÌŞ»1
+e
+java:S1192¶"GDefine a constant instead of duplicating this literal "UYARI" 10 times.(„Ö–˜8ÍÌŞ»1
 q
-java:S1192Ô"NDefine a constant instead of duplicating this literal "Pansiyon Turu" 3 times.(û¼Üñÿÿÿÿÿ8ÖÎş°»1
+java:S1192×"NDefine a constant instead of duplicating this literal "Pansiyon Turu" 3 times.(û¼Üñÿÿÿÿÿ8ÍÌŞ»1
 †
-java:S1192‘"cDefine a constant instead of duplicating this literal "LÃ¼tfen tÃ¼m alanlarÄ± doldurunuz!" 4 times.(ƒäíşúÿÿÿÿ8ÖÎş°»1
+java:S1192”"cDefine a constant instead of duplicating this literal "LÃ¼tfen tÃ¼m alanlarÄ± doldurunuz!" 4 times.(ƒäíşúÿÿÿÿ8ÍÌŞ»1
 d
-java:S1192·"FDefine a constant instead of duplicating this literal "Bilgi" 8 times.(ªÕîà8ÖÎş°»1
+java:S1192º"FDefine a constant instead of duplicating this literal "Bilgi" 8 times.(ªÕîà8ÍÌŞ»1
 m
-java:S1192"JDefine a constant instead of duplicating this literal "Donem Adi" 3 times.(¡™Ü‚úÿÿÿÿ8ÖÎş°»1
+java:S1192‘"JDefine a constant instead of duplicating this literal "Donem Adi" 3 times.(¡™Ü‚úÿÿÿÿ8ÍÌŞ»1
 l
-java:S1192³"NDefine a constant instead of duplicating this literal "Emin misiniz?" 4 times.(„Ö–˜8ÖÎş°»1
+java:S1192¶"NDefine a constant instead of duplicating this literal "Emin misiniz?" 4 times.(„Ö–˜8ÍÌŞ»1
 „
-java:S1192±"aDefine a constant instead of duplicating this literal "LÃ¼tfen ID alanÄ±nÄ± doldurunuz!" 4 times.(Ìª¡øÿÿÿÿ8ÖÎş°»1
+java:S1192´"aDefine a constant instead of duplicating this literal "LÃ¼tfen ID alanÄ±nÄ± doldurunuz!" 4 times.(Ìª¡øÿÿÿÿ8ÍÌŞ»1
 h
-java:S1192…"JDefine a constant instead of duplicating this literal "Otel AdÄ±" 4 times.(åÏª‘8×Îş°»1
+java:S1192ˆ"JDefine a constant instead of duplicating this literal "Otel AdÄ±" 4 times.(åÏª‘8ÍÌŞ»1
 M
-java:S1066¾"/Merge this if statement with the enclosing one.(Âš˜Ì8ØÎş°»1
-n	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÏª‘8ÜÎş°»1
-s	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¼Üñÿÿÿÿÿ8İÎş°»1
-s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡™Ü‚úÿÿÿÿ8İÎş°»1
-s	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úİñœÿÿÿÿÿ8İÎş°»1
-n	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( á¼¤8İÎş°»1
-m	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿª 8İÎş°»1
-n	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÆ’œ8İÎş°»1
-n	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È™‡8İÎş°»1
-s	java:S117Ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î²ØÅşÿÿÿÿ8İÎş°»1
-s	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ıÍ–üÿÿÿÿ8İÎş°»1
-n	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë»É8İÎş°»1
-n	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ„¢¶8İÎş°»1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8æÎş°»1
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ÊøÕ8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øßèòúÿÿÿÿ8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³°¦Êùÿÿÿÿ8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ñ™åÿÿÿÿÿ8ŸÏş°»1
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£õß˜8ŸÏş°»1
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü§Ğ‡8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğ­“¼ùÿÿÿÿ8ŸÏş°»1
-v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôÑ„º8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìöÄùÿÿÿÿ8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ƒ‡öúÿÿÿÿ8ŸÏş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ı¬øşÿÿÿÿ8¡Ïş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ı¬øşÿÿÿÿ8¡Ïş°»1
-{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ı¬øşÿÿÿÿ8¡Ïş°»1
-p	java:S116$"TRename this field "lbl_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œí—¶8¡Ïş°»1
-t	java:S116%"SRename this field "btn_exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛŸÒıÿÿÿÿ8¡Ïş°»1
-y	java:S116'"XRename this field "tbl_otel_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø“éúÿÿÿÿ8¡Ïş°»1
-y	java:S116("XRename this field "fld_otel_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷•äüÿÿÿÿ8¡Ïş°»1
-t	java:S116)"XRename this field "fld_otel_city" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òñ›à8¡Ïş°»1
-{	java:S116*"ZRename this field "fld_otel_region" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥´éšıÿÿÿÿ8¡Ïş°»1
-w	java:S116+"[Rename this field "fld_otel_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îù™Ÿ8¢Ïş°»1
-u	java:S116,"YRename this field "fld_otel_email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞİÖÊ8¢Ïş°»1
-t	java:S116-"YRename this field "fld_otel_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôØï+8¢Ïş°»1
-t	java:S116."XRename this field "fld_otel_star" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Âã“8¢Ïş°»1
-}	java:S116/"\Rename this field "fdl_otel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úš“ıÿÿÿÿ8¢Ïş°»1
-€	java:S1160"_Rename this field "txtarea_ote_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ğ´şÿÿÿÿ8¢Ïş°»1
-s	java:S1161"WRename this field "btn_otel_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸĞ×¥8¢Ïş°»1
-r	java:S1162"VRename this field "fld_otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶£èŸ8¢Ïş°»1
-u	java:S1163"ZRename this field "btn_otel_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àæ˜8¢Ïş°»1
-x	java:S1164"\Rename this field "pnl_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ Ãğ8¢Ïş°»1
-}	java:S1165"\Rename this field "tbl_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¶ú×ùÿÿÿÿ8¢Ïş°»1
-x	java:S1166"\Rename this field "btn_otel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®µÄŸ8¢Ïş°»1
-	java:S1167"^Rename this field "fld_otel_lodging_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óí€›üÿÿÿÿ8¢Ïş°»1
-{	java:S1168"ZRename this field "btn_lodgins_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­÷ëåÿÿÿÿÿ8¢Ïş°»1
-u	java:S1169"YRename this field "fld_lodgind_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İüŠÏ8¢Ïş°»1
-y	java:S116:"]Rename this field "btn_lodging_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‚½Š8¢Ïş°»1
-	java:S116;"eRename this field "cbm_otel_lodgings_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À³†8¢Ïş°»1
-x	java:S116<"\Rename this field "tbl_room_list_new" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¡Ş8¢Ïş°»1
-~	java:S116="]Rename this field "cmb_room_otel_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔĞôşúÿÿÿÿ8¢Ïş°»1
-|	java:S116>"`Rename this field "cmb_room_lodging_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¦£8¢Ïş°»1
-€	java:S116?"_Rename this field "cmb_room_season_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÕşÿÿÿÿ8¢Ïş°»1
-t	java:S116@"XRename this field "cbm_room_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÂ¡½8¢Ïş°»1
-t	java:S116A"YRename this field "fld_room_stock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ç¼88¢Ïş°»1
-w	java:S116B"VRename this field "fld_room_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êØÈÀúÿÿÿÿ8¢Ïş°»1
-y	java:S116C"XRename this field "fld_room_area" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‡¹ıÿÿÿÿ8¢Ïş°»1
-t	java:S116D"XRename this field "cmb_room_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­˜Şÿ8¢Ïş°»1
-{	java:S116E"_Rename this field "fld_room_adult_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÈåŸ8¢Ïş°»1
-€	java:S116F"_Rename this field "fld_room_child_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èˆ¶Ÿúÿÿÿÿ8¢Ïş°»1
-x	java:S116G"\Rename this field "fld_room_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«â‚8¢Ïş°»1
-x	java:S116H"\Rename this field "btn_room_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙàüÑ8¢Ïş°»1
-x	java:S116I"WRename this field "btn_room_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÎäªøÿÿÿÿ8¢Ïş°»1
-w	java:S116J"VRename this field "fld_room_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ²ìØúÿÿÿÿ8¢Ïş°»1
-{	java:S116K"ZRename this field "btn_room_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃæÍúÿÿÿÿ8¢Ïş°»1
-x	java:S116L"]Rename this field "fld_season_otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‚œ,8¢Ïş°»1
-v	java:S116M"ZRename this field "cmb_season_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( à ã8¢Ïş°»1
-z	java:S116N"YRename this field "fld_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÓ™¿úÿÿÿÿ8¢Ïş°»1
-x	java:S116O"WRename this field "fld_end_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸»²úúÿÿÿÿ8¢Ïş°»1
-u	java:S116P"YRename this field "btn_season_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÚ•Ì8¢Ïş°»1
-{	java:S116Q"ZRename this field "tbl_season_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö–Ùáúÿÿÿÿ8¢Ïş°»1
-t	java:S116R"XRename this field "fld_season_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìğßı8¢Ïş°»1
-x	java:S116S"\Rename this field "btn_season_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒŠšü8¢Ïş°»1
-{	java:S116T"_Rename this field "fld_search_mix_value" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‡—ü8¢Ïş°»1
-€	java:S116U"eRename this field "fld_search_room_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²„·q8£Ïş°»1
-„	java:S116V"cRename this field "fld_search_room_end_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àçü˜ûÿÿÿÿ8£Ïş°»1
-{	java:S116W"_Rename this field "tbl_search_room_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¬œ¼8£Ïş°»1
-v	java:S116X"URename this field "btn_search" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ï£„üÿÿÿÿ8£Ïş°»1
-‚	java:S116Y"fRename this field "fld_search_room_child_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ùªô8£Ïş°»1
-ƒ	java:S116Z"gRename this field "fld_search_room_adult_price_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ó‰®8£Ïş°»1
-	java:S116["^Rename this field "cmb_search_mix_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾êØ‡øÿÿÿÿ8£Ïş°»1
-v	java:S116]"ZRename this field "model_otel_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¨8£Ïş°»1
-u	java:S116^"YRename this field "row_hotel_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã€Ğª8£Ïş°»1
-z	java:S116a"YRename this field "model_otel_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ€Çˆÿÿÿÿÿ8£Ïş°»1
-t	java:S116b"XRename this field "row_hotel_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç³ñÿ8£Ïş°»1
-}	java:S116d"\Rename this field "model_otel_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿İ»¡ûÿÿÿÿ8£Ïş°»1
-w	java:S116e"[Rename this field "row_hotel_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬±©8£Ïş°»1
-z	java:S116f"^Rename this field "model_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É‡ô8£Ïş°»1
-w	java:S116g"\Rename this field "row_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Îô"8£Ïş°»1
-{	java:S116i"ZRename this field "model_room_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¿àùÿÿÿÿ8£Ïş°»1
-y	java:S116j"XRename this field "row_room_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ§Úøÿÿÿÿ8£Ïş°»1
-x	java:S116l"\Rename this field "model_season_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ï˜„8£Ïş°»1
-{	java:S116m"ZRename this field "row_season_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í–ôËøÿÿÿÿ8£Ïş°»1
-‚	java:S116n"aRename this field "model_room_search_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ã×üÿÿÿÿ8£Ïş°»1
-€	java:S116o"_Rename this field "row_room_search_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦áˆãüÿÿÿÿ8£Ïş°»1
+java:S1066Á"/Merge this if statement with the enclosing one.(Âš˜Ì8‚ÍÌŞ»1
+n	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÏª‘8ƒÍÌŞ»1
+s	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¼Üñÿÿÿÿÿ8ƒÍÌŞ»1
+s	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡™Ü‚úÿÿÿÿ8ƒÍÌŞ»1
+s	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úİñœÿÿÿÿÿ8ƒÍÌŞ»1
+n	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( á¼¤8ƒÍÌŞ»1
+m	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿª 8ƒÍÌŞ»1
+n	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÆ’œ8ƒÍÌŞ»1
+n	java:S117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È™‡8ƒÍÌŞ»1
+s	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î²ØÅşÿÿÿÿ8ƒÍÌŞ»1
+s	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ıÍ–üÿÿÿÿ8ƒÍÌŞ»1
+n	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë»É8ƒÍÌŞ»1
+n	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ„¢¶8ƒÍÌŞ»1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìºéÚ8†ÍÌŞ»1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†ÊøÕ8§ÍÌŞ»1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(øßèòúÿÿÿÿ8§ÍÌŞ»1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³°¦Êùÿÿÿÿ8§ÍÌŞ»1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ñ™åÿÿÿÿÿ8§ÍÌŞ»1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£õß˜8§ÍÌŞ»1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ü§Ğ‡8§ÍÌŞ»1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ğ­“¼ùÿÿÿÿ8§ÍÌŞ»1
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôÑ„º8§ÍÌŞ»1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìöÄùÿÿÿÿ8§ÍÌŞ»1
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ƒ‡öúÿÿÿÿ8§ÍÌŞ»1
+{	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ı¬øşÿÿÿÿ8©ÍÌŞ»1
+{	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ı¬øşÿÿÿÿ8©ÍÌŞ»1
+{	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ı¬øşÿÿÿÿ8©ÍÌŞ»1
+p	java:S116&"TRename this field "lbl_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œí—¶8ªÍÌŞ»1
+t	java:S116'"SRename this field "btn_exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÛŸÒıÿÿÿÿ8ªÍÌŞ»1
+y	java:S116)"XRename this field "tbl_otel_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø“éúÿÿÿÿ8ªÍÌŞ»1
+y	java:S116*"XRename this field "fld_otel_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷•äüÿÿÿÿ8ªÍÌŞ»1
+t	java:S116+"XRename this field "fld_otel_city" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òñ›à8ªÍÌŞ»1
+{	java:S116,"ZRename this field "fld_otel_region" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥´éšıÿÿÿÿ8ªÍÌŞ»1
+w	java:S116-"[Rename this field "fld_otel_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îù™Ÿ8ªÍÌŞ»1
+u	java:S116."YRename this field "fld_otel_email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞİÖÊ8ªÍÌŞ»1
+t	java:S116/"YRename this field "fld_otel_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôØï+8ªÍÌŞ»1
+t	java:S1160"XRename this field "fld_otel_star" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Âã“8ªÍÌŞ»1
+}	java:S1161"\Rename this field "fdl_otel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úš“ıÿÿÿÿ8ªÍÌŞ»1
+€	java:S1162"_Rename this field "txtarea_ote_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ğ´şÿÿÿÿ8ªÍÌŞ»1
+s	java:S1163"WRename this field "btn_otel_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸĞ×¥8ªÍÌŞ»1
+r	java:S1164"VRename this field "fld_otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶£èŸ8ªÍÌŞ»1
+u	java:S1165"ZRename this field "btn_otel_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àæ˜8ªÍÌŞ»1
+x	java:S1166"\Rename this field "pnl_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ Ãğ8ªÍÌŞ»1
+}	java:S1167"\Rename this field "tbl_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¶ú×ùÿÿÿÿ8ªÍÌŞ»1
+x	java:S1168"\Rename this field "btn_otel_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®µÄŸ8ªÍÌŞ»1
+	java:S1169"^Rename this field "fld_otel_lodging_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óí€›üÿÿÿÿ8ªÍÌŞ»1
+{	java:S116:"ZRename this field "btn_lodgins_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­÷ëåÿÿÿÿÿ8ªÍÌŞ»1
+u	java:S116;"YRename this field "fld_lodgind_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İüŠÏ8ªÍÌŞ»1
+y	java:S116<"]Rename this field "btn_lodging_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù‚½Š8ªÍÌŞ»1
+	java:S116="eRename this field "cbm_otel_lodgings_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À³†8ªÍÌŞ»1
+x	java:S116>"\Rename this field "tbl_room_list_new" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è¡Ş8ªÍÌŞ»1
+~	java:S116?"]Rename this field "cmb_room_otel_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔĞôşúÿÿÿÿ8ªÍÌŞ»1
+|	java:S116@"`Rename this field "cmb_room_lodging_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¦£8ªÍÌŞ»1
+€	java:S116A"_Rename this field "cmb_room_season_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÕşÿÿÿÿ8ªÍÌŞ»1
+t	java:S116B"XRename this field "cbm_room_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸÂ¡½8ªÍÌŞ»1
+t	java:S116C"YRename this field "fld_room_stock" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ç¼88ªÍÌŞ»1
+w	java:S116D"VRename this field "fld_room_no" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êØÈÀúÿÿÿÿ8ªÍÌŞ»1
+y	java:S116E"XRename this field "fld_room_area" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å‡¹ıÿÿÿÿ8ªÍÌŞ»1
+t	java:S116F"XRename this field "cmb_room_type" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­˜Şÿ8ªÍÌŞ»1
+{	java:S116G"_Rename this field "fld_room_adult_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÈåŸ8ªÍÌŞ»1
+€	java:S116H"_Rename this field "fld_room_child_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èˆ¶Ÿúÿÿÿÿ8«ÍÌŞ»1
+x	java:S116I"\Rename this field "fld_room_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«â‚8«ÍÌŞ»1
+x	java:S116J"\Rename this field "btn_room_features" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙàüÑ8«ÍÌŞ»1
+x	java:S116K"WRename this field "btn_room_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÕÎäªøÿÿÿÿ8«ÍÌŞ»1
+w	java:S116L"VRename this field "fld_room_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ²ìØúÿÿÿÿ8«ÍÌŞ»1
+{	java:S116M"ZRename this field "btn_room_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃæÍúÿÿÿÿ8«ÍÌŞ»1
+x	java:S116N"]Rename this field "fld_season_otel_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‚œ,8«ÍÌŞ»1
+v	java:S116O"ZRename this field "cmb_season_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( à ã8«ÍÌŞ»1
+z	java:S116P"YRename this field "fld_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÓ™¿úÿÿÿÿ8«ÍÌŞ»1
+x	java:S116Q"WRename this field "fld_end_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸»²úúÿÿÿÿ8«ÍÌŞ»1
+u	java:S116R"YRename this field "btn_season_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÚ•Ì8«ÍÌŞ»1
+{	java:S116S"ZRename this field "tbl_season_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö–Ùáúÿÿÿÿ8«ÍÌŞ»1
+t	java:S116T"XRename this field "fld_season_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìğßı8«ÍÌŞ»1
+x	java:S116U"\Rename this field "btn_season_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒŠšü8«ÍÌŞ»1
+{	java:S116V"_Rename this field "fld_search_mix_value" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦‡—ü8«ÍÌŞ»1
+€	java:S116W"eRename this field "fld_search_room_start_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²„·q8«ÍÌŞ»1
+„	java:S116X"cRename this field "fld_search_room_end_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àçü˜ûÿÿÿÿ8«ÍÌŞ»1
+{	java:S116Y"_Rename this field "tbl_search_room_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¬œ¼8«ÍÌŞ»1
+v	java:S116Z"URename this field "btn_search" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ï£„üÿÿÿÿ8«ÍÌŞ»1
+‚	java:S116["fRename this field "fld_search_room_child_price" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ùªô8«ÍÌŞ»1
+ƒ	java:S116\"gRename this field "fld_search_room_adult_price_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Ó‰®8«ÍÌŞ»1
+	java:S116]"^Rename this field "cmb_search_mix_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾êØ‡øÿÿÿÿ8«ÍÌŞ»1
+€	java:S116^"_Rename this field "btn_reservation_open" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÍÂ„şÿÿÿÿ8«ÍÌŞ»1
+v	java:S116`"ZRename this field "model_otel_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¨8«ÍÌŞ»1
+u	java:S116a"YRename this field "row_hotel_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã€Ğª8«ÍÌŞ»1
+z	java:S116d"YRename this field "model_otel_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ€Çˆÿÿÿÿÿ8«ÍÌŞ»1
+t	java:S116e"XRename this field "row_hotel_add" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç³ñÿ8«ÍÌŞ»1
+}	java:S116g"\Rename this field "model_otel_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿İ»¡ûÿÿÿÿ8«ÍÌŞ»1
+w	java:S116h"[Rename this field "row_hotel_delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¬±©8«ÍÌŞ»1
+z	java:S116i"^Rename this field "model_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É‡ô8«ÍÌŞ»1
+w	java:S116j"\Rename this field "row_lodgings_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Îô"8«ÍÌŞ»1
+{	java:S116l"ZRename this field "model_room_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•¿àùÿÿÿÿ8«ÍÌŞ»1
+y	java:S116m"XRename this field "row_room_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ§Úøÿÿÿÿ8«ÍÌŞ»1
+x	java:S116o"\Rename this field "model_season_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ï˜„8«ÍÌŞ»1
+{	java:S116p"ZRename this field "row_season_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í–ôËøÿÿÿÿ8«ÍÌŞ»1
+‚	java:S116q"aRename this field "model_room_search_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ã×üÿÿÿÿ8«ÍÌŞ»1
+€	java:S116r"_Rename this field "row_room_search_list" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦áˆãüÿÿÿÿ8«ÍÌŞ»1
 M
-java:S1948^"0Make "row_hotel_list" transient or serializable.(Ã€Ğª8©Ïş°»1
+java:S1948a"0Make "row_hotel_list" transient or serializable.(Ã€Ğª8³ÍÌŞ»1
 L
-java:S1948_"*Make "employee" transient or serializable.(ç¬ß´ûÿÿÿÿ8©Ïş°»1
+java:S1948b"*Make "employee" transient or serializable.(ç¬ß´ûÿÿÿÿ8³ÍÌŞ»1
 L
-java:S1948b"/Make "row_hotel_add" transient or serializable.(Ç³ñÿ8©Ïş°»1
+java:S1948e"/Make "row_hotel_add" transient or serializable.(Ç³ñÿ8³ÍÌŞ»1
 O
-java:S1948e"2Make "row_hotel_delete" transient or serializable.(§¬±©8©Ïş°»1
+java:S1948h"2Make "row_hotel_delete" transient or serializable.(§¬±©8³ÍÌŞ»1
 O
-java:S1948g"3Make "row_lodgings_list" transient or serializable.(¡Îô"8©Ïş°»1
+java:S1948j"3Make "row_lodgings_list" transient or serializable.(¡Îô"8³ÍÌŞ»1
 Q
-java:S1948j"/Make "row_room_list" transient or serializable.(õ§Úøÿÿÿÿ8©Ïş°»1
+java:S1948m"/Make "row_room_list" transient or serializable.(õ§Úøÿÿÿÿ8³ÍÌŞ»1
 E
-java:S1948k"(Make "hotels" transient or serializable.(Ôä´º8ªÏş°»1
+java:S1948n"(Make "hotels" transient or serializable.(Ôä´º8³ÍÌŞ»1
 S
-java:S1948m"1Make "row_season_list" transient or serializable.(Í–ôËøÿÿÿÿ8ªÏş°»1
+java:S1948p"1Make "row_season_list" transient or serializable.(Í–ôËøÿÿÿÿ8³ÍÌŞ»1
 X
-java:S1948o"6Make "row_room_search_list" transient or serializable.(¦áˆãüÿÿÿÿ8ªÏş°»1
+java:S1948r"6Make "row_room_search_list" transient or serializable.(¦áˆãüÿÿÿÿ8³ÍÌŞ»1
 u
-java:S3776r"SRefactor this method to reduce its Cognitive Complexity from 134 to the 15 allowed.(¹ÉÙÿÿÿÿÿ8¯Ïş°»1
+java:S3776u"SRefactor this method to reduce its Cognitive Complexity from 137 to the 15 allowed.(¹ÉÙÿÿÿÿÿ8¸ÍÌŞ»1
 i
-java:S3252y"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8³Ïş°»1
-H	java:S106«"+Replace this use of System.out by a logger.(ñ·¤¬8¹Ïş°»1
+java:S3252|"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(Òœ Ğ8¹ÍÌŞ»1
+H	java:S106®"+Replace this use of System.out by a logger.(ñ·¤¬8¾ÍÌŞ»1
 J
-java:S1602Î",Remove useless curly braces around statement(ÌŞƒ8¼Ïş°»1
-H	java:S106ó"+Replace this use of System.out by a logger.(ñ·¤¬8¾Ïş°»1
+java:S1602Ñ",Remove useless curly braces around statement(ÌŞƒ8¿ÍÌŞ»1
+H	java:S106ö"+Replace this use of System.out by a logger.(ñ·¤¬8ÁÍÌŞ»1
 J
-java:S1602™",Remove useless curly braces around statement(„ı8ÀÏş°»1
+java:S1602œ",Remove useless curly braces around statement(„ı8ÃÍÌŞ»1
 J
-java:S1602 ",Remove useless curly braces around statement(íñæŠ8ÁÏş°»1
-H	java:S106×"+Replace this use of System.out by a logger.(ñ·¤¬8ÉÏş°»1
-H	java:S106ù"+Replace this use of System.out by a logger.(ñ·¤¬8ÍÏş°»1
+java:S1602£",Remove useless curly braces around statement(íñæŠ8ÃÍÌŞ»1
+H	java:S106Ú"+Replace this use of System.out by a logger.(ñ·¤¬8ÈÍÌŞ»1
+H	java:S106ü"+Replace this use of System.out by a logger.(ñ·¤¬8ÊÍÌŞ»1
 d
-java:S1858¬"A"getText" returns a string, there's no need to call "toString()".(–ºÒ¨øÿÿÿÿ8ÓÏş°»1
+java:S1858¯"A"getText" returns a string, there's no need to call "toString()".(–ºÒ¨øÿÿÿÿ8ĞÍÌŞ»1
 d
-java:S1858­"A"getText" returns a string, there's no need to call "toString()".(©ıÃÊøÿÿÿÿ8ÕÏş°»1
+java:S1858°"A"getText" returns a string, there's no need to call "toString()".(©ıÃÊøÿÿÿÿ8ĞÍÌŞ»1
 _
-java:S1858®"A"getText" returns a string, there's no need to call "toString()".(ş‡£ë8ÕÏş°»1
+java:S1858±"A"getText" returns a string, there's no need to call "toString()".(ş‡£ë8ĞÍÌŞ»1
 d
-java:S1858¯"A"getText" returns a string, there's no need to call "toString()".(×šêíÿÿÿÿÿ8ÕÏş°»1
+java:S1858²"A"getText" returns a string, there's no need to call "toString()".(×šêíÿÿÿÿÿ8ÑÍÌŞ»1
 _
-java:S1858°"A"getText" returns a string, there's no need to call "toString()".(¥¹æŠ8ÖÏş°»1
+java:S1858³"A"getText" returns a string, there's no need to call "toString()".(¥¹æŠ8ÑÍÌŞ»1
 a
-java:S1155Æ">Use isEmpty() to check whether the collection is empty or not.(©êÓüÿÿÿÿ8ÙÏş°»1
+java:S1155É">Use isEmpty() to check whether the collection is empty or not.(©êÓüÿÿÿÿ8ÔÍÌŞ»1
 X
-java:S1161Î":Add the "@Override" annotation above this method signature(ÚÎ€÷8ÜÏş°»1
+java:S1161Ñ":Add the "@Override" annotation above this method signature(ÚÎ€÷8×ÍÌŞ»1
 X
-java:S1854ï"5Remove this useless assignment to local variable "i".(¿Î†»ùÿÿÿÿ8İÏş°»1
+java:S1854ı"5Remove this useless assignment to local variable "i".(¿Î†»ùÿÿÿÿ8ÙÍÌŞ»1
 X
-java:S1854ˆ"5Remove this useless assignment to local variable "i".(®¨¾Œøÿÿÿÿ8áÏş°»1
-M	java:S106§"+Replace this use of System.out by a logger.(Û½Õôÿÿÿÿÿ8äÏş°»1
-M	java:S106ª"+Replace this use of System.out by a logger.(ÑİÍÏúÿÿÿÿ8äÏş°»1
+java:S1854–"5Remove this useless assignment to local variable "i".(®¨¾Œøÿÿÿÿ8ÜÍÌŞ»1
+M	java:S106µ"+Replace this use of System.out by a logger.(Û½Õôÿÿÿÿÿ8àÍÌŞ»1
+M	java:S106¸"+Replace this use of System.out by a logger.(ÑİÍÏúÿÿÿÿ8áÍÌŞ»1
 S
-java:S1854È"5Remove this useless assignment to local variable "i".(½‹Ô8åÏş°»1
+java:S1854Ö"5Remove this useless assignment to local variable "i".(½‹Ô8âÍÌŞ»1
 X
-java:S1854á"5Remove this useless assignment to local variable "i".(Ÿˆ¤¼ûÿÿÿÿ8çÏş°»1
+java:S1854ï"5Remove this useless assignment to local variable "i".(Ÿˆ¤¼ûÿÿÿÿ8åÍÌŞ»1
 f
-java:S1117Ù"HRename "model_lodgings_list" which hides the field declared at line 102.(ˆ„¢¶8çÏş°»1
+java:S1117ç"HRename "model_lodgings_list" which hides the field declared at line 105.(ˆ„¢¶8æÍÌŞ»1
 S
-java:S1854÷"5Remove this useless assignment to local variable "i".(Î±¦›8èÏş°»1
-^	java:S125ë"<This block of commented-out lines of code should be removed.(¾ıÖøÿÿÿÿ8éÏş°»1
+java:S1854…"5Remove this useless assignment to local variable "i".(Î±¦›8çÍÌŞ»1
+^	java:S125ù"<This block of commented-out lines of code should be removed.(¾ıÖøÿÿÿÿ8èÍÌŞ»1
 b
-java:S1854"?Remove this useless assignment to local variable "employeeGUI".(ˆ›Áúûÿÿÿÿ8éÏş°»1
+java:S1854"?Remove this useless assignment to local variable "employeeGUI".(ˆ›Áúûÿÿÿÿ8èÍÌŞ»1
 S
-java:S1481"0Remove this unused "employeeGUI" local variable.(ˆ›Áúûÿÿÿÿ8êÏş°»1
+java:S1481"0Remove this unused "employeeGUI" local variable.(ˆ›Áúûÿÿÿÿ8éÍÌŞ»1
 L
-java:S1068&"/Remove this unused "tabbedPane1" private field.(ÀĞ™©8êÏş°»1
+java:S1068("/Remove this unused "tabbedPane1" private field.(ÀĞ™©8éÍÌŞ»1
 Z
-java:S10680"8Remove this unused "txtarea_ote_features" private field.(—Ğ´şÿÿÿÿ8êÏş°»1
+java:S10682"8Remove this unused "txtarea_ote_features" private field.(—Ğ´şÿÿÿÿ8éÍÌŞ»1
 R
-java:S10684"5Remove this unused "pnl_lodgings_list" private field.(¸ Ãğ8êÏş°»1
+java:S10686"5Remove this unused "pnl_lodgings_list" private field.(¸ Ãğ8éÍÌŞ»1
 N
-java:S1068_",Remove this unused "employee" private field.(ç¬ß´ûÿÿÿÿ8êÏş°»1
+java:S1068b",Remove this unused "employee" private field.(ç¬ß´ûÿÿÿÿ8éÍÌŞ»1
 T
-java:S1068a"2Remove this unused "model_otel_add" private field.(Œ€Çˆÿÿÿÿÿ8êÏş°»1
+java:S1068d"2Remove this unused "model_otel_add" private field.(Œ€Çˆÿÿÿÿÿ8éÍÌŞ»1
 N
-java:S1068b"1Remove this unused "row_hotel_add" private field.(Ç³ñÿ8êÏş°»1
+java:S1068e"1Remove this unused "row_hotel_add" private field.(Ç³ñÿ8éÍÌŞ»1
 W
-java:S1068d"5Remove this unused "model_otel_delete" private field.(¿İ»¡ûÿÿÿÿ8êÏş°»1
+java:S1068g"5Remove this unused "model_otel_delete" private field.(¿İ»¡ûÿÿÿÿ8éÍÌŞ»1
 Q
-java:S1068e"4Remove this unused "row_hotel_delete" private field.(§¬±©8êÏş°»1
+java:S1068h"4Remove this unused "row_hotel_delete" private field.(§¬±©8éÍÌŞ»1
